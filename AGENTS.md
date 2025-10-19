@@ -21,16 +21,16 @@ Reserved/known filenames in the repo root (do not create unless you know what yo
   - Must serialize the root `IArchimateModel` object
   - If missing, importers treat the project as empty
 
-- Required top‑level subfolders in `model/` (names must match exactly):
-  - `Strategy`
-  - `Business`
-  - `Application`
-  - `Technology`
-  - `Motivation`
-  - `Implementation_Migration`
-  - `Other`
-  - `Relations`
-  - `Diagrams`
+- Required top‑level subfolders in `model/`:
+  - `strategy`
+  - `business`
+  - `application`
+  - `technology`
+  - `motivation`
+  - `implementation_migration`
+  - `other`
+  - `relations`
+  - `diagrams`
 
 - Every folder (including `model/` and any nested folder) must contain a `folder.xml` that serializes that folder’s object (`IFolder` for non‑root folders, `IArchimateModel` for `model/`).
 
