@@ -1,4 +1,4 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="SLA: время ответа &lt; 1с"
+    name="SLA: время ответа    сервисов &lt; 100ms"
     id="id-00000000000000000000000000000029"/>
