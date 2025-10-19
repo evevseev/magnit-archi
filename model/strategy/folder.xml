@@ -1,5 +1,7 @@
 <archimate:Folder
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Strategy"
     id="id-a683022bef2a42ad985ba262d10665bd"
-    type="strategy"/>
+    name="Strategy"
+    type="STRATEGY"/>
+

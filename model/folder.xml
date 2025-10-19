@@ -1,5 +1,6 @@
-<archimate:ArchimateModel
+<archimate:model
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Magnit"
     id="id-d6cffc150791472580cadefe3c7b4fdb"
+    name="Magnit"
     version="5.0.0"/>

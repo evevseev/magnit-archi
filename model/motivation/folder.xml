@@ -1,5 +1,7 @@
 <archimate:Folder
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Motivation"
     id="id-eb44704b3aae4de6849382a9760e901f"
-    type="motivation"/>
+    name="Motivation"
+    type="MOTIVATION"/>
+
