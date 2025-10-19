@@ -326,7 +326,6 @@
   </children>
 
   <!-- Sample connections using relationships created -->
-  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn_anchor"/>
   <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa14_src">
     <bounds x="0" y="0" width="0" height="0"/>
     <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000014.xml#id-00000000000000000000000000000014"/>
@@ -471,4 +470,3 @@
   </children>
 
 </archimate:ArchimateDiagramModel>
-
