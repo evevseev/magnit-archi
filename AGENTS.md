@@ -334,7 +334,7 @@ This section lists the important, non‑guessable properties available on object
 
 - Folder (`archimate:Folder` in each `folder.xml`)
   - Attributes: `id` (required), `name` (required), `type` (required)
-  - `type` allowed values: `STRATEGY`, `BUSINESS`, `APPLICATION`, `TECHNOLOGY`, `MOTIVATION`, `IMPLEMENTATION_MIGRATION`, `OTHER`, `RELATIONS`, `DIAGRAMS`, `USER`
+  - `type` allowed values: `STRATEGY`, `BUSINESS`, `APPLICATION`, `TECHNOLOGY`, `MOTIVATION`, `IMPLEMENTATION_MIGRATION`, `OTHER`, `RELATIONS`, `DIAGRAMS`, `USER` (use all lowercase letters when specifing)
 
 - ArchiMate Element files (e.g., `archimate:Goal`)
   - Attributes: `id` (required), `name` (optional)
