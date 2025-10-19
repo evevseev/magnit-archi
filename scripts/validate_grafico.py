@@ -132,7 +132,9 @@ class Validator:
         if fx.is_file():
             try:
                 root = parse_xml(fx)
-                if localname(root.tag) != "model" or root.tag.split("}")[0].strip("{") != ARCHIMATE_NS:
+                lname = localname(root.tag)
+                ns = root.tag.split("}")[0].strip("{") if root.tag.startswith("{") else ""
+                if ns != ARCHIMATE_NS or lname not in ("model", "ArchimateModel"):
                     self.fail(f"model/folder.xml root must be archimate:model (got {root.tag})")
             except Exception as e:
                 self.fail(str(e))
@@ -290,6 +292,9 @@ class Validator:
             # Connections via xsi:type=DiagramModelArchimateConnection
             for conn in root.findall(".//*", NSMAP):
                 if conn.get(f"{{{XSI_NS}}}type") == "archimate:DiagramModelArchimateConnection":
+                    # Accept both EMF-alias ('sourceConnection') and default serialization ('sourceConnections') tag names
+                    if localname(conn.tag) not in ("sourceConnection", "sourceConnections"):
+                        self.warn(f"Unexpected connection element name '{localname(conn.tag)}' in {p}")
                     sid = conn.get("source"); tid = conn.get("target")
                     if not sid or sid not in ids:
                         self.fail(f"Diagram connection source not found among children ids: {sid} in {p}")

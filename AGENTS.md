@@ -252,7 +252,7 @@ Required structure
   - Children:
     - `bounds` element with `x`, `y`, `width`, `height` integers (use `-1` for auto width/height if desired).
     - `archimateElement` referencing the underlying element via `href` and `xsi:type` set to the element’s class.
-- Connections are either contained under a node’s `sourceConnections` element with `xsi:type="archimate:DiagramModelArchimateConnection"` or referenced via `targetConnections`:
+- Connections are contained under the source node as one or more `sourceConnections` elements (plural) with `xsi:type="archimate:DiagramModelArchimateConnection"`:
   - Attributes: `id`, `source` (diagram object id), `target` (diagram object id).
   - Child: `archimateRelationship` referencing the relationship via `href` and `xsi:type` set to the relationship’s class.
 

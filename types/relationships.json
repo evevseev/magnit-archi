@@ -31,11 +31,9 @@
     ]
   },
   "rules": [
-    // General
     { "relationship": "AssociationRelationship",   "sourceGroup": "*",                "targetGroup": "*" },
     { "relationship": "SpecializationRelationship", "sourceGroup": "*",                "targetGroup": "*", "sameClass": true },
 
-    // Structural aggregation/composition
     { "relationship": "AggregationRelationship",   "sourceGroup": "Composite",         "targetGroup": "*" },
     { "relationship": "AggregationRelationship",   "sourceGroup": "ActiveStructure",   "targetGroup": "ActiveStructure" },
     { "relationship": "AggregationRelationship",   "sourceGroup": "ActiveStructure",   "targetGroup": "PassiveStructure" },
@@ -46,29 +44,22 @@
     { "relationship": "CompositionRelationship",   "sourceGroup": "ActiveStructure",   "targetGroup": "PassiveStructure" },
     { "relationship": "CompositionRelationship",   "sourceGroup": "PassiveStructure",  "targetGroup": "PassiveStructure" },
 
-    // Assignment (assigning behavior to active structure)
     { "relationship": "AssignmentRelationship",     "sourceGroup": "ActiveStructure",   "targetGroup": "Behavior" },
 
-    // Realization
     { "relationship": "RealizationRelationship",   "sourceGroup": "Behavior",         "targetGroup": "Service" },
     { "relationship": "RealizationRelationship",   "sourceGroup": "ActiveStructure",   "targetGroup": "Service" },
     { "relationship": "RealizationRelationship",   "sourceClass": "Artifact",          "targetClass": "DataObject" },
     { "relationship": "RealizationRelationship",   "sourceClass": "Representation",     "targetClass": "BusinessObject" },
     { "relationship": "RealizationRelationship",   "sourceClass": "Deliverable",        "targetGroup": "Motivation" },
 
-    // Serving
     { "relationship": "ServingRelationship",        "sourceGroup": "Service",          "targetGroup": "*" },
 
-    // Access (to passive structure)
     { "relationship": "AccessRelationship",         "sourceGroup": "ActiveStructure",   "targetGroup": "PassiveStructure" },
     { "relationship": "AccessRelationship",         "sourceGroup": "Behavior",         "targetGroup": "PassiveStructure" },
 
-    // Influence (motivation to motivation)
     { "relationship": "InfluenceRelationship",      "sourceGroup": "Motivation",        "targetGroup": "Motivation" },
 
-    // Dynamic relationships
     { "relationship": "TriggeringRelationship",     "sourceGroup": "Behavior",         "targetGroup": "Behavior" },
     { "relationship": "FlowRelationship",           "sourceGroup": "Behavior",         "targetGroup": "Behavior" }
   ]
 }
-
