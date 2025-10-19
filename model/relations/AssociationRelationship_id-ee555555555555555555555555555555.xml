@@ -1,4 +1,4 @@
-<archimate:TriggeringRelationship
+<archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     id="id-ee555555555555555555555555555555">
@@ -8,5 +8,5 @@
   <target
       xsi:type="archimate:CourseOfAction"
       href="CourseOfAction_id-99aabbccddeeff001122334455667788.xml#id-99aabbccddeeff001122334455667788"/>
-</archimate:TriggeringRelationship>
+</archimate:AssociationRelationship>
 
