@@ -1,6 +1,4 @@
 <archimate:Principle
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-0000000000000000000000000000003c"
-    name="Открытая архитектура"/>
-
+    name="Открытая архитектура"
+    id="id-0000000000000000000000000000003c"/>

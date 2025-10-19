@@ -1,7 +1,5 @@
 <archimate:Folder
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-cccccccccccccccccccccccccccccc06"
     name="Implementation Migration"
+    id="id-cccccccccccccccccccccccccccccc06"
     type="implementation_migration"/>
-

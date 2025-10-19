@@ -1,6 +1,4 @@
 <archimate:WorkPackage
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-0000000000000000000000000000004c"
-    name="Единый каталог и МДМ"/>
-
+    name="Единый каталог и МДМ"
+    id="id-0000000000000000000000000000004c"/>

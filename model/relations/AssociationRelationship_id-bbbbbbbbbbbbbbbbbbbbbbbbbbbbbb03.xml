@@ -2,7 +2,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     id="id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb03">
-  <source xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000001.xml#id-00000000000000000000000000000001"/>
-  <target xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000014.xml#id-00000000000000000000000000000014"/>
+  <source
+      xsi:type="archimate:Stakeholder"
+      href="Stakeholder_id-00000000000000000000000000000001.xml#id-00000000000000000000000000000001"/>
+  <target
+      xsi:type="archimate:Goal"
+      href="Goal_id-00000000000000000000000000000014.xml#id-00000000000000000000000000000014"/>
 </archimate:AssociationRelationship>
-

@@ -1,6 +1,4 @@
 <archimate:WorkPackage
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-00000000000000000000000000000048"
-    name="Очереди самообслуживания"/>
-
+    name="Очереди самообслуживания"
+    id="id-00000000000000000000000000000048"/>

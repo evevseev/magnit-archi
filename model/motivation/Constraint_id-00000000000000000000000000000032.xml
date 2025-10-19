@@ -1,6 +1,4 @@
 <archimate:Constraint
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-00000000000000000000000000000032"
-    name="Дефицит кадров"/>
-
+    name="Дефицит кадров"
+    id="id-00000000000000000000000000000032"/>

@@ -1,6 +1,4 @@
 <archimate:Requirement
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-00000000000000000000000000000030"
-    name="Контроль температурной цепочки"/>
-
+    name="Контроль температурной цепочки"
+    id="id-00000000000000000000000000000030"/>

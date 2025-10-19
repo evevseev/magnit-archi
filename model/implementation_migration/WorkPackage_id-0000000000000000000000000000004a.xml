@@ -1,6 +1,4 @@
 <archimate:WorkPackage
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-0000000000000000000000000000004a"
-    name="Миграция мобильного приложения"/>
-
+    name="Миграция мобильного приложения"
+    id="id-0000000000000000000000000000004a"/>

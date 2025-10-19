@@ -1,6 +1,4 @@
 <archimate:Value
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-00000000000000000000000000000042"
-    name="Качество"/>
-
+    name="Качество"
+    id="id-00000000000000000000000000000042"/>

@@ -1,6 +1,4 @@
 <archimate:Requirement
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-0000000000000000000000000000002e"
-    name="Стандарты качества данных"/>
-
+    name="Стандарты качества данных"
+    id="id-0000000000000000000000000000002e"/>

@@ -1,6 +1,4 @@
 <archimate:Constraint
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-00000000000000000000000000000033"
-    name="Срок внедрения 12 месяцев"/>
-
+    name="Срок внедрения 12 месяцев"
+    id="id-00000000000000000000000000000033"/>

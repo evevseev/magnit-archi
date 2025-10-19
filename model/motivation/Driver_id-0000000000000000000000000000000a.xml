@@ -1,6 +1,4 @@
 <archimate:Driver
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-0000000000000000000000000000000a"
-    name="Лояльность клиентов"/>
-
+    name="Лояльность клиентов"
+    id="id-0000000000000000000000000000000a"/>
