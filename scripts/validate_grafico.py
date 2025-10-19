@@ -335,6 +335,38 @@ class Validator:
                             found_rel = True
                             if not ch.get("href"):
                                 self.fail(f"Diagram connection missing archimateRelationship/@href in {p}")
+                            else:
+                                # Validate the relationship endpoints match the source/target diagram elements
+                                rel_href = ch.get("href") or ""
+                                rfile, rid = self._resolve_href(rel_href)
+                                if not rfile or not rfile.exists():
+                                    self.fail(f"Diagram connection relationship href file not found: {rel_href} in {p}")
+                                else:
+                                    try:
+                                        rroot = parse_xml(rfile)
+                                        rsrc_href, rtgt_href = None, None
+                                        for rchild in rroot:
+                                            ln = localname(rchild.tag)
+                                            if ln == "source":
+                                                rsrc_href = rchild.get("href")
+                                            elif ln == "target":
+                                                rtgt_href = rchild.get("href")
+                                        # Extract element IDs of source/target diagram objects
+                                        src_elem_id = self._diagram_object_element_id(root, sid)
+                                        tgt_elem_id = self._diagram_object_element_id(root, tid)
+                                        def frag_of(h: Optional[str]) -> Optional[str]:
+                                            if not h:
+                                                return None
+                                            m = re.match(r"^([^/]+\.xml)#(.+)$", h)
+                                            return m.group(2) if m else None
+                                        rsrc_id = frag_of(rsrc_href)
+                                        rtgt_id = frag_of(rtgt_href)
+                                        if src_elem_id and rsrc_id and src_elem_id != rsrc_id:
+                                            self.fail(f"Diagram connection source element ({src_elem_id}) does not match relationship source ({rsrc_id}) in {p}")
+                                        if tgt_elem_id and rtgt_id and tgt_elem_id != rtgt_id:
+                                            self.fail(f"Diagram connection target element ({tgt_elem_id}) does not match relationship target ({rtgt_id}) in {p}")
+                                    except Exception as ex:
+                                        self.fail(f"Failed to validate connection vs relationship endpoints in {p}: {ex}")
                             # Optional: validate relationship type against source/target element types using rules
                             if self.relation_rules:
                                 rtype = ch.get(f"{{{XSI_NS}}}type") or ""
@@ -372,6 +404,20 @@ class Validator:
                 if ":" in t:
                     t = t.split(":", 1)[1]
                 return t
+        return None
+
+    def _diagram_object_element_id(self, root: ET.Element, dmo_id: Optional[str]) -> Optional[str]:
+        """Return the underlying element id (fragment from archimateElement/@href) for a diagram object id."""
+        if not dmo_id:
+            return None
+        for dmo in root.findall(".//*", NSMAP):
+            if dmo.get("id") == dmo_id and dmo.get(f"{{{XSI_NS}}}type") == "archimate:DiagramModelArchimateObject":
+                el = dmo.find("archimateElement")
+                if el is None:
+                    return None
+                href = el.get("href") or ""
+                m = re.match(r"^([^/]+\.xml)#(.+)$", href)
+                return m.group(2) if m else None
         return None
 
     def _read_relationship_rules(self) -> Dict[str, Any]:
