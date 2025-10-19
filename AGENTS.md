@@ -86,7 +86,7 @@ Security and parsing:
 ## Parameters and Allowed Values
 
 - `top_level_folders` (required): the exact set of folder names under `model/`
-  - Values: `Strategy`, `Business`, `Application`, `Technology`, `Motivation`, `Implementation_Migration`, `Other`, `Relations`, `Diagrams`
+  - Values: `strategy`, `business`, `application`, `rechnology`, `motivation`, `implementation_migration`, `other`, `relations`, `diagrams`
 
 - `folder_xml_presence` (required): ensure every folder dir contains `folder.xml`
   - Values: `required`

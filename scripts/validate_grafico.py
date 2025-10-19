@@ -26,8 +26,7 @@ import subprocess
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Any
-
+from typing import Any, Dict, List, Optional, Tuple
 
 ARCHIMATE_NS = "http://www.archimatetool.com/archimate"
 XSI_NS = "http://www.w3.org/2001/XMLSchema-instance"
@@ -106,6 +105,8 @@ class Validator:
         self.basename_to_path: Dict[str, Path] = {}
         # Cache: full path -> (root_local_name, id)
         self.file_meta: Dict[Path, Tuple[str, str]] = {}
+        # Global id registry: id -> list of (path, context)
+        self.id_index: Dict[str, List[Tuple[Path, str]]] = {}
 
     def fail(self, msg: str) -> None:
         self.errors.append(msg)
@@ -164,6 +165,27 @@ class Validator:
             if not rid:
                 self.fail(f"Missing @id on root: {p}")
             self.file_meta[p] = (localname(root.tag), rid)
+            if rid:
+                self._add_id(rid, p, f"root:{localname(root.tag)}")
+            # Collect diagram object/connection ids inside diagram files
+            rlocal = localname(root.tag)
+            if rlocal in ("ArchimateDiagramModel", "SketchModel"):
+                # Any child with an id attribute among known diagram object types (by xsi:type)
+                for el in root.findall(".//*", NSMAP):
+                    eid = el.get("id")
+                    if not eid:
+                        continue
+                    xtype = el.get(f"{{{XSI_NS}}}type") or ""
+                    if xtype == "archimate:DiagramModelArchimateConnection":
+                        self._add_id(eid, p, "diagram:DiagramModelArchimateConnection")
+                    elif xtype.startswith("archimate:"):
+                        tname = xtype.split(":", 1)[1]
+                        if tname in ("DiagramModelArchimateObject", "DiagramModelNote", "DiagramModelImage", "DiagramModelGroup", "DiagramModelReference"):
+                            self._add_id(eid, p, f"diagram:{tname}")
+
+    def _add_id(self, eid: str, path: Path, ctx: str) -> None:
+        lst = self.id_index.setdefault(eid, [])
+        lst.append((path, ctx))
 
     def check_files_and_ids(self) -> None:
         for p, (root_local, rid) in self.file_meta.items():
@@ -238,6 +260,12 @@ class Validator:
                 if frag != trid:
                     self.fail(f"Href id ({frag}) does not match target root @id ({trid}): {href} (in {p})")
 
+        # Global duplicate id detection (must be unique across model)
+        dups = {k: v for k, v in self.id_index.items() if len(v) > 1}
+        for eid, locs in dups.items():
+            where = ", ".join([f"{lp} [{ctx}]" for lp, ctx in locs])
+            self.fail(f"Duplicate id detected: {eid} used in {where}")
+
     def check_relationships(self) -> None:
         for p, (root_local, _) in self.file_meta.items():
             if not root_local.endswith("Relationship"):
@@ -278,17 +306,17 @@ class Validator:
             if root_local not in ("ArchimateDiagramModel", "SketchModel"):
                 continue
             root = parse_xml(p)
-            # Collect diagram object ids (children of any type)
+            # Collect diagram object ids (by xsi:type)
             ids = set()
-            for child in root.findall(".//", NSMAP):
-                if child.get("id") and localname(child.tag) in (
-                    "DiagramModelArchimateObject",
-                    "DiagramModelNote",
-                    "DiagramModelImage",
-                    "DiagramModelGroup",
-                    "DiagramModelReference",
-                ):
-                    ids.add(child.get("id"))
+            for el in root.findall(".//*", NSMAP):
+                eid = el.get("id")
+                if not eid:
+                    continue
+                xtype = el.get(f"{{{XSI_NS}}}type") or ""
+                if xtype.startswith("archimate:"):
+                    tname = xtype.split(":", 1)[1]
+                    if tname in ("DiagramModelArchimateObject", "DiagramModelNote", "DiagramModelImage", "DiagramModelGroup", "DiagramModelReference"):
+                        ids.add(eid)
             # Connections via xsi:type=DiagramModelArchimateConnection
             for conn in root.findall(".//*", NSMAP):
                 if conn.get(f"{{{XSI_NS}}}type") == "archimate:DiagramModelArchimateConnection":
