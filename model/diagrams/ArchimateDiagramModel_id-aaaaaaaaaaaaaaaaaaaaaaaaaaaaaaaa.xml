@@ -1,0 +1,474 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Магнит — Мотивационная диаграмма"
+    id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">
+  <!-- Row 1: Stakeholders (1..8) -->
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa01">
+    <bounds x="60" y="60" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000001.xml#id-00000000000000000000000000000001"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa02">
+    <bounds x="240" y="60" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000002.xml#id-00000000000000000000000000000002"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa03">
+    <bounds x="420" y="60" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000003.xml#id-00000000000000000000000000000003"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa04">
+    <bounds x="600" y="60" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000004.xml#id-00000000000000000000000000000004"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa05">
+    <bounds x="780" y="60" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000005.xml#id-00000000000000000000000000000005"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa06">
+    <bounds x="960" y="60" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000006.xml#id-00000000000000000000000000000006"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa07">
+    <bounds x="1140" y="60" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000007.xml#id-00000000000000000000000000000007"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa08">
+    <bounds x="1320" y="60" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000008.xml#id-00000000000000000000000000000008"/>
+  </children>
+
+  <!-- Row 2: Drivers (9..18) -->
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa09">
+    <bounds x="60" y="180" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Driver" href="Driver_id-00000000000000000000000000000009.xml#id-00000000000000000000000000000009"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa0a">
+    <bounds x="240" y="180" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Driver" href="Driver_id-0000000000000000000000000000000a.xml#id-0000000000000000000000000000000a"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa0b">
+    <bounds x="420" y="180" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Driver" href="Driver_id-0000000000000000000000000000000b.xml#id-0000000000000000000000000000000b"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa0c">
+    <bounds x="600" y="180" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Driver" href="Driver_id-0000000000000000000000000000000c.xml#id-0000000000000000000000000000000c"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa0d">
+    <bounds x="780" y="180" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Driver" href="Driver_id-0000000000000000000000000000000d.xml#id-0000000000000000000000000000000d"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa0e">
+    <bounds x="960" y="180" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Driver" href="Driver_id-0000000000000000000000000000000e.xml#id-0000000000000000000000000000000e"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa0f">
+    <bounds x="1140" y="180" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Driver" href="Driver_id-0000000000000000000000000000000f.xml#id-0000000000000000000000000000000f"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa10">
+    <bounds x="1320" y="180" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Driver" href="Driver_id-00000000000000000000000000000010.xml#id-00000000000000000000000000000010"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa11">
+    <bounds x="1500" y="180" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Driver" href="Driver_id-00000000000000000000000000000011.xml#id-00000000000000000000000000000011"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa12">
+    <bounds x="1680" y="180" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Driver" href="Driver_id-00000000000000000000000000000012.xml#id-00000000000000000000000000000012"/>
+  </children>
+
+  <!-- Row 3: Goals (19..30) -->
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa13">
+    <bounds x="60" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000013.xml#id-00000000000000000000000000000013"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa14">
+    <bounds x="240" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000014.xml#id-00000000000000000000000000000014"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa15">
+    <bounds x="420" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000015.xml#id-00000000000000000000000000000015"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa16">
+    <bounds x="600" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000016.xml#id-00000000000000000000000000000016"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa17">
+    <bounds x="780" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000017.xml#id-00000000000000000000000000000017"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa18">
+    <bounds x="960" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000018.xml#id-00000000000000000000000000000018"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa19">
+    <bounds x="1140" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000019.xml#id-00000000000000000000000000000019"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa1a">
+    <bounds x="1320" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-0000000000000000000000000000001a.xml#id-0000000000000000000000000000001a"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa1b">
+    <bounds x="1500" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-0000000000000000000000000000001b.xml#id-0000000000000000000000000000001b"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa1c">
+    <bounds x="1680" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-0000000000000000000000000000001c.xml#id-0000000000000000000000000000001c"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa1d">
+    <bounds x="1860" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-0000000000000000000000000000001d.xml#id-0000000000000000000000000000001d"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa1e">
+    <bounds x="2040" y="300" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-0000000000000000000000000000001e.xml#id-0000000000000000000000000000001e"/>
+  </children>
+
+  <!-- Row 4: Outcomes (31..36) -->
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa1f">
+    <bounds x="60" y="420" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Outcome" href="Outcome_id-0000000000000000000000000000001f.xml#id-0000000000000000000000000000001f"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa20">
+    <bounds x="240" y="420" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Outcome" href="Outcome_id-00000000000000000000000000000020.xml#id-00000000000000000000000000000020"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa21">
+    <bounds x="420" y="420" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Outcome" href="Outcome_id-00000000000000000000000000000021.xml#id-00000000000000000000000000000021"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa22">
+    <bounds x="600" y="420" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Outcome" href="Outcome_id-00000000000000000000000000000022.xml#id-00000000000000000000000000000022"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa23">
+    <bounds x="780" y="420" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Outcome" href="Outcome_id-00000000000000000000000000000023.xml#id-00000000000000000000000000000023"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa24">
+    <bounds x="960" y="420" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Outcome" href="Outcome_id-00000000000000000000000000000024.xml#id-00000000000000000000000000000024"/>
+  </children>
+
+  <!-- Row 5: Requirements (37..48) -->
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa25">
+    <bounds x="60" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-00000000000000000000000000000025.xml#id-00000000000000000000000000000025"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa26">
+    <bounds x="240" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-00000000000000000000000000000026.xml#id-00000000000000000000000000000026"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa27">
+    <bounds x="420" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-00000000000000000000000000000027.xml#id-00000000000000000000000000000027"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa28">
+    <bounds x="600" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-00000000000000000000000000000028.xml#id-00000000000000000000000000000028"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa29">
+    <bounds x="780" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-00000000000000000000000000000029.xml#id-00000000000000000000000000000029"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa2a">
+    <bounds x="960" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-0000000000000000000000000000002a.xml#id-0000000000000000000000000000002a"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa2b">
+    <bounds x="1140" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-0000000000000000000000000000002b.xml#id-0000000000000000000000000000002b"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa2c">
+    <bounds x="1320" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-0000000000000000000000000000002c.xml#id-0000000000000000000000000000002c"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa2d">
+    <bounds x="1500" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-0000000000000000000000000000002d.xml#id-0000000000000000000000000000002d"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa2e">
+    <bounds x="1680" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-0000000000000000000000000000002e.xml#id-0000000000000000000000000000002e"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa2f">
+    <bounds x="1860" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-0000000000000000000000000000002f.xml#id-0000000000000000000000000000002f"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa30">
+    <bounds x="2040" y="540" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Requirement" href="Requirement_id-00000000000000000000000000000030.xml#id-00000000000000000000000000000030"/>
+  </children>
+
+  <!-- Row 6: Constraints (49..56) -->
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa31">
+    <bounds x="60" y="660" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Constraint" href="Constraint_id-00000000000000000000000000000031.xml#id-00000000000000000000000000000031"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa32">
+    <bounds x="240" y="660" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Constraint" href="Constraint_id-00000000000000000000000000000032.xml#id-00000000000000000000000000000032"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa33">
+    <bounds x="420" y="660" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Constraint" href="Constraint_id-00000000000000000000000000000033.xml#id-00000000000000000000000000000033"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa34">
+    <bounds x="600" y="660" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Constraint" href="Constraint_id-00000000000000000000000000000034.xml#id-00000000000000000000000000000034"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa35">
+    <bounds x="780" y="660" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Constraint" href="Constraint_id-00000000000000000000000000000035.xml#id-00000000000000000000000000000035"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa36">
+    <bounds x="960" y="660" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Constraint" href="Constraint_id-00000000000000000000000000000036.xml#id-00000000000000000000000000000036"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa37">
+    <bounds x="1140" y="660" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Constraint" href="Constraint_id-00000000000000000000000000000037.xml#id-00000000000000000000000000000037"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa38">
+    <bounds x="1320" y="660" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Constraint" href="Constraint_id-00000000000000000000000000000038.xml#id-00000000000000000000000000000038"/>
+  </children>
+
+  <!-- Row 7: Principles (57..64) -->
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa39">
+    <bounds x="60" y="780" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Principle" href="Principle_id-00000000000000000000000000000039.xml#id-00000000000000000000000000000039"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa3a">
+    <bounds x="240" y="780" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Principle" href="Principle_id-0000000000000000000000000000003a.xml#id-0000000000000000000000000000003a"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa3b">
+    <bounds x="420" y="780" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Principle" href="Principle_id-0000000000000000000000000000003b.xml#id-0000000000000000000000000000003b"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa3c">
+    <bounds x="600" y="780" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Principle" href="Principle_id-0000000000000000000000000000003c.xml#id-0000000000000000000000000000003c"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa3d">
+    <bounds x="780" y="780" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Principle" href="Principle_id-0000000000000000000000000000003d.xml#id-0000000000000000000000000000003d"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa3e">
+    <bounds x="960" y="780" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Principle" href="Principle_id-0000000000000000000000000000003e.xml#id-0000000000000000000000000000003e"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa3f">
+    <bounds x="1140" y="780" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Principle" href="Principle_id-0000000000000000000000000000003f.xml#id-0000000000000000000000000000003f"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa40">
+    <bounds x="1320" y="780" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Principle" href="Principle_id-00000000000000000000000000000040.xml#id-00000000000000000000000000000040"/>
+  </children>
+
+  <!-- Row 8: Values (65..70) -->
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa41">
+    <bounds x="60" y="900" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Value" href="Value_id-00000000000000000000000000000041.xml#id-00000000000000000000000000000041"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa42">
+    <bounds x="240" y="900" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Value" href="Value_id-00000000000000000000000000000042.xml#id-00000000000000000000000000000042"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa43">
+    <bounds x="420" y="900" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Value" href="Value_id-00000000000000000000000000000043.xml#id-00000000000000000000000000000043"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa44">
+    <bounds x="600" y="900" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Value" href="Value_id-00000000000000000000000000000044.xml#id-00000000000000000000000000000044"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa45">
+    <bounds x="780" y="900" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Value" href="Value_id-00000000000000000000000000000045.xml#id-00000000000000000000000000000045"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa46">
+    <bounds x="960" y="900" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:Value" href="Value_id-00000000000000000000000000000046.xml#id-00000000000000000000000000000046"/>
+  </children>
+
+  <!-- Row 9: WorkPackages (71..76) -->
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa47">
+    <bounds x="60" y="1020" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:WorkPackage" href="WorkPackage_id-00000000000000000000000000000047.xml#id-00000000000000000000000000000047"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa48">
+    <bounds x="240" y="1020" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:WorkPackage" href="WorkPackage_id-00000000000000000000000000000048.xml#id-00000000000000000000000000000048"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa49">
+    <bounds x="420" y="1020" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:WorkPackage" href="WorkPackage_id-00000000000000000000000000000049.xml#id-00000000000000000000000000000049"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa4a">
+    <bounds x="600" y="1020" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:WorkPackage" href="WorkPackage_id-0000000000000000000000000000004a.xml#id-0000000000000000000000000000004a"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa4b">
+    <bounds x="780" y="1020" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:WorkPackage" href="WorkPackage_id-0000000000000000000000000000004b.xml#id-0000000000000000000000000000004b"/>
+  </children>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa4c">
+    <bounds x="960" y="1020" width="120" height="55"/>
+    <archimateElement xsi:type="archimate:WorkPackage" href="WorkPackage_id-0000000000000000000000000000004c.xml#id-0000000000000000000000000000004c"/>
+  </children>
+
+  <!-- Sample connections using relationships created -->
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn_anchor"/>
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa14_src">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000014.xml#id-00000000000000000000000000000014"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530b7"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa09"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa13">
+      <archimateRelationship xsi:type="archimate:InfluenceRelationship" href="InfluenceRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb01.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb01"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn1">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Principle" href="Principle_id-0000000000000000000000000000003a.xml#id-0000000000000000000000000000003a"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530b8"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa3a"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa14">
+      <archimateRelationship xsi:type="archimate:InfluenceRelationship" href="InfluenceRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb02.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb02"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn2">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000001.xml#id-00000000000000000000000000000001"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530b9"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa01"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa14">
+      <archimateRelationship xsi:type="archimate:AssociationRelationship" href="AssociationRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb03.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb03"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn3">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000019.xml#id-00000000000000000000000000000019"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530ba"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa19"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa13">
+      <archimateRelationship xsi:type="archimate:SpecializationRelationship" href="SpecializationRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb04.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb04"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn4">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000014.xml#id-00000000000000000000000000000014"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530bb"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa14"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa20">
+      <archimateRelationship xsi:type="archimate:InfluenceRelationship" href="InfluenceRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb05.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb05"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn5">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:WorkPackage" href="WorkPackage_id-00000000000000000000000000000047.xml#id-00000000000000000000000000000047"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530bc"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa47"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa2c">
+      <archimateRelationship xsi:type="archimate:AssociationRelationship" href="AssociationRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb06.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb06"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn6">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000005.xml#id-00000000000000000000000000000005"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530bd"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa05"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa1f">
+      <archimateRelationship xsi:type="archimate:AssociationRelationship" href="AssociationRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb07.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb07"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn7">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:WorkPackage" href="WorkPackage_id-00000000000000000000000000000048.xml#id-00000000000000000000000000000048"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530be"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa48"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa29">
+      <archimateRelationship xsi:type="archimate:AssociationRelationship" href="AssociationRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb08.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb08"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn8">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-00000000000000000000000000000019.xml#id-00000000000000000000000000000019"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530bf"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa19"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa22">
+      <archimateRelationship xsi:type="archimate:InfluenceRelationship" href="InfluenceRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb09.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb09"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conn9">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Goal" href="Goal_id-0000000000000000000000000000001d.xml#id-0000000000000000000000000000001d"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530c0"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa1d"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa24">
+      <archimateRelationship xsi:type="archimate:InfluenceRelationship" href="InfluenceRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0a.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0a"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_conna">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Constraint" href="Constraint_id-00000000000000000000000000000031.xml#id-00000000000000000000000000000031"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530c1"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa31"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa17">
+      <archimateRelationship xsi:type="archimate:InfluenceRelationship" href="InfluenceRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0b.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0b"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_connb">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Stakeholder" href="Stakeholder_id-00000000000000000000000000000008.xml#id-00000000000000000000000000000008"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530c2"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa08"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa40">
+      <archimateRelationship xsi:type="archimate:AssociationRelationship" href="AssociationRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0c.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0c"/>
+    </sourceConnections>
+  </children>
+
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa_connc">
+    <bounds x="0" y="0" width="0" height="0"/>
+    <archimateElement xsi:type="archimate:Value" href="Value_id-00000000000000000000000000000041.xml#id-00000000000000000000000000000041"/>
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-8d3e2a625a354ceab94e4239bd3530c3"
+        source="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa41"
+        target="id-aaaaaaaaaaaaaaaaaaaaaaaaaaaa16">
+      <archimateRelationship xsi:type="archimate:AssociationRelationship" href="AssociationRelationship_id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0d.xml#id-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0d"/>
+    </sourceConnections>
+  </children>
+
+</archimate:ArchimateDiagramModel>
+
