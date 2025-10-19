@@ -1,6 +1,5 @@
-<archimate:model
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<archimate:ArchimateModel
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-55555555555555555555555555555555"
-    name="Магнит — Модель мотивации"/>
-
+    name="Magnit"
+    id="id-d6cffc150791472580cadefe3c7b4fdb"
+    version="5.0.0"/>
