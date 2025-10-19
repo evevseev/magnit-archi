@@ -151,6 +151,33 @@ Include a machine‑readable catalog of Archi types in your model repository at 
 
 Keep the catalog in sync with your Archi model version when upgrading.
 
+## Relationship Rules
+
+Include `types/relationships.json` to constrain which relationship classes are valid between which element classes. The schema supports class groups to keep rules concise.
+
+- File: `types/relationships.json`
+- Fields:
+  - `groups`: named lists of classes (e.g., `Motivation`, `DynamicBehavior`, `Service`)
+  - `rules`: list of rules with fields:
+    - `relationship`: relationship class name (e.g., `TriggeringRelationship`), or `*`
+    - `sourceClass` or `sourceGroup`: exact class, or a group name, or `*`
+    - `targetClass` or `targetGroup`: exact class, or a group name, or `*`
+
+All ArchiMate relationship classes are covered via `rules` entries:
+- AssociationRelationship: allowed between any two elements
+- SpecializationRelationship: only between same-class elements (enforced by `sameClass: true`)
+- AggregationRelationship: from Composite/Active/Passive structure to structural parts
+- CompositionRelationship: like Aggregation but stronger containment within structural groups
+- AssignmentRelationship: from ActiveStructure to Behavior
+- RealizationRelationship: Behavior/ActiveStructure realize Services; Artifact realizes DataObject; Representation realizes BusinessObject; Deliverable realizes Motivation outcomes
+- ServingRelationship: from Service to any element
+- AccessRelationship: from ActiveStructure/Behavior to PassiveStructure
+- InfluenceRelationship: between Motivation elements
+- TriggeringRelationship: between Behavior/Event elements
+- FlowRelationship: between Behavior/Event elements
+
+LLMs must select relationships using this file. If a pair is not matched by any rule for a given relationship class, consider using `AssociationRelationship` or adjust the model. When in doubt, prefer the more general `AssociationRelationship` over an invalid specialized one.
+
 ## Drop‑in Usage
 
 - Copy this `AGENTS.md` and the `types/` folder (containing `catalog.json`) into any Grafico model repository. No other files from any particular project are required.

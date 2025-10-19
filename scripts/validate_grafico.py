@@ -26,7 +26,7 @@ import subprocess
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Any
 
 
 ARCHIMATE_NS = "http://www.archimatetool.com/archimate"
@@ -100,6 +100,8 @@ class Validator:
         self.errors: List[str] = []
         self.warnings: List[str] = []
         self.class_to_folder, self.element_classes, self.relationship_classes, self.diagram_classes = read_catalog(self.repo)
+        self.relation_rules = self._read_relationship_rules()
+        self.groups = self.relation_rules.get("groups", {}) if self.relation_rules else {}
         # Cache: basename -> full path
         self.basename_to_path: Dict[str, Path] = {}
         # Cache: full path -> (root_local_name, id)
@@ -255,6 +257,20 @@ class Validator:
                 if not e.get(f"{{{XSI_NS}}}type"):
                     self.fail(f"Relationship {lab} missing @xsi:type: {p}")
 
+            # Rule-based validity (if relationships.json present)
+            if self.relation_rules:
+                src_type = src_elems[0].get(f"{{{XSI_NS}}}type") or ""
+                tgt_type = tgt_elems[0].get(f"{{{XSI_NS}}}type") or ""
+                # Remove prefix archimate:
+                if ":" in src_type:
+                    src_type = src_type.split(":", 1)[1]
+                if ":" in tgt_type:
+                    tgt_type = tgt_type.split(":", 1)[1]
+                if not self._is_relationship_allowed(root_local, src_type, tgt_type):
+                    self.fail(
+                        f"Relationship {root_local} not allowed between {src_type} and {tgt_type}: {p}"
+                    )
+
     def check_diagrams(self) -> None:
         for p, (root_local, _) in self.file_meta.items():
             if root_local not in ("ArchimateDiagramModel", "SketchModel"):
@@ -286,6 +302,20 @@ class Validator:
                             found_rel = True
                             if not ch.get("href"):
                                 self.fail(f"Diagram connection missing archimateRelationship/@href in {p}")
+                            # Optional: validate relationship type against source/target element types using rules
+                            if self.relation_rules:
+                                rtype = ch.get(f"{{{XSI_NS}}}type") or ""
+                                if ":" in rtype:
+                                    rtype = rtype.split(":", 1)[1]
+                                # Lookup the diagram object elements for source/target ids
+                                sid = conn.get("source"); tid = conn.get("target")
+                                src_elem_type = self._diagram_object_element_type(root, sid)
+                                tgt_elem_type = self._diagram_object_element_type(root, tid)
+                                if rtype and src_elem_type and tgt_elem_type:
+                                    if not self._is_relationship_allowed(rtype, src_elem_type, tgt_elem_type):
+                                        self.fail(
+                                            f"Diagram connection {rtype} not allowed between {src_elem_type} and {tgt_elem_type} in {p}"
+                                        )
                     if not found_rel:
                         self.fail(f"Diagram connection missing <archimateRelationship> in {p}")
             # Each DiagramModelArchimateObject needs bounds and archimateElement href
@@ -296,6 +326,65 @@ class Validator:
                     ael = dmo.find("archimateElement")
                     if ael is None or not ael.get("href"):
                         self.fail(f"DiagramModelArchimateObject missing archimateElement/@href in {p}")
+
+    def _diagram_object_element_type(self, root: ET.Element, dmo_id: Optional[str]) -> Optional[str]:
+        if not dmo_id:
+            return None
+        for dmo in root.findall(".//*", NSMAP):
+            if dmo.get("id") == dmo_id and dmo.get(f"{{{XSI_NS}}}type") == "archimate:DiagramModelArchimateObject":
+                el = dmo.find("archimateElement")
+                if el is None:
+                    return None
+                t = el.get(f"{{{XSI_NS}}}type") or ""
+                if ":" in t:
+                    t = t.split(":", 1)[1]
+                return t
+        return None
+
+    def _read_relationship_rules(self) -> Dict[str, Any]:
+        p = self.repo / "types" / "relationships.json"
+        if not p.is_file():
+            return {}
+        try:
+            return json.loads(p.read_text(encoding="utf-8"))
+        except Exception as e:
+            self.warn(f"Failed to read relationships.json: {e}")
+            return {}
+
+    def _is_relationship_allowed(self, rtype: str, src: str, tgt: str) -> bool:
+        # If no rules, allow
+        if not self.relation_rules:
+            return True
+        rules = self.relation_rules.get("rules", [])
+        groups: Dict[str, List[str]] = self.relation_rules.get("groups", {})
+
+        def in_group(name: str, cls: str) -> bool:
+            return cls in groups.get(name, [])
+
+        def match_side(rule_key_class: Optional[str], rule_key_group: Optional[str], actual: str) -> bool:
+            if rule_key_class and rule_key_class == actual:
+                return True
+            if rule_key_group:
+                if rule_key_group == "*":
+                    return True
+                if in_group(rule_key_group, actual):
+                    return True
+            return False
+
+        for rule in rules:
+            if rule.get("relationship") not in (rtype, "*"):
+                continue
+            # sameClass rule enforces src==tgt
+            same_class = bool(rule.get("sameClass"))
+            if same_class and src != tgt:
+                continue
+            if match_side(rule.get("sourceClass"), rule.get("sourceGroup"), src) and \
+               match_side(rule.get("targetClass"), rule.get("targetGroup"), tgt):
+                return True
+        # No matching rule found; if there's any rule for this relationship type, then it's forbidden by omission.
+        # If there are no rules for this type, return True to be permissive.
+        any_for_type = any(r.get("relationship") == rtype for r in rules)
+        return not any_for_type
 
     def optional_archi_load(self) -> None:
         if not self.archi_bin:
@@ -358,4 +447,3 @@ def main(argv: Optional[List[str]] = None) -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
