@@ -970,8 +970,8 @@
           href="InfluenceRelationship_id-1885857d3b8645098ebb0dacc646d97c.xml#id-1885857d3b8645098ebb0dacc646d97c"/>
     </sourceConnections>
     <bounds
-        x="816"
-        y="-192"
+        x="463"
+        y="-180"
         width="120"
         height="55"/>
     <archimateElement
@@ -991,8 +991,8 @@
           href="InfluenceRelationship_id-4a472dc98fd845a8b59134850846c9a3.xml#id-4a472dc98fd845a8b59134850846c9a3"/>
     </sourceConnections>
     <bounds
-        x="621"
-        y="-324"
+        x="300"
+        y="-264"
         width="120"
         height="55"/>
     <archimateElement
@@ -1086,8 +1086,8 @@
       id="id-ad2325cc884441df89ee4c5a968e1f0d"
       targetConnections="id-c8a377cc9b3e4293806f88e1a99521ca id-37890e680132499b9f636485d9f7ef9a id-4f79a54dc62a4f5795a7e72e46d21776">
     <bounds
-        x="615"
-        y="-246"
+        x="300"
+        y="-180"
         width="120"
         height="55"/>
     <archimateElement
