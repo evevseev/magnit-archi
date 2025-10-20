@@ -1,5 +1,4 @@
 <archimate:BusinessService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-67c419faa02e481bae6cea8a6e23becd"
-    name="Сервис доставки"/>
+    name="Сервис доставки"
+    id="id-67c419faa02e481bae6cea8a6e23becd"/>

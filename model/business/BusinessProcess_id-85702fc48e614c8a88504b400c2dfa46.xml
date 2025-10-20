@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-85702fc48e614c8a88504b400c2dfa46"
-    name="Предавторизация оплаты"/>
+    name="Предавторизация оплаты"
+    id="id-85702fc48e614c8a88504b400c2dfa46"/>

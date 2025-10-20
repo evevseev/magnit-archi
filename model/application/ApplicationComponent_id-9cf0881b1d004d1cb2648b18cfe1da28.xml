@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-9cf0881b1d004d1cb2648b18cfe1da28"
-    name="Планировщик магазина"/>
+    name="Планировщик магазина"
+    id="id-9cf0881b1d004d1cb2648b18cfe1da28"/>

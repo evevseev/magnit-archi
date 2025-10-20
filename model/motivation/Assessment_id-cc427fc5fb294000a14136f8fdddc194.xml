@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-cc427fc5fb294000a14136f8fdddc194"
-    name="Ошибка №5: Нет интеграции CCTV/EAS с SIEM"/>
+    name="Ошибка №5: Нет интеграции CCTV/EAS с SIEM"
+    id="id-cc427fc5fb294000a14136f8fdddc194"/>

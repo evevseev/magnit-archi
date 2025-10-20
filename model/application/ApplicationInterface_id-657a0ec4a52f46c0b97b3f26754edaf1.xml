@@ -1,5 +1,4 @@
 <archimate:ApplicationInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-657a0ec4a52f46c0b97b3f26754edaf1"
-    name="Promo API"/>
+    name="Promo API"
+    id="id-657a0ec4a52f46c0b97b3f26754edaf1"/>

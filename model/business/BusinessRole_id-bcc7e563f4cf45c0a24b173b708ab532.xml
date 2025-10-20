@@ -1,5 +1,4 @@
 <archimate:BusinessRole
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-bcc7e563f4cf45c0a24b173b708ab532"
-    name="Продавец-консультант"/>
+    name="Продавец-консультант"
+    id="id-bcc7e563f4cf45c0a24b173b708ab532"/>

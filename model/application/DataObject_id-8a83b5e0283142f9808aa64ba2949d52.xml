@@ -1,5 +1,4 @@
 <archimate:DataObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-8a83b5e0283142f9808aa64ba2949d52"
-    name="Delivery Status"/>
+    name="Delivery Status"
+    id="id-8a83b5e0283142f9808aa64ba2949d52"/>

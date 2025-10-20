@@ -1,5 +1,4 @@
 <archimate:ApplicationInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-509ce1262d5d4dc7aeb832b49b75d07e"
-    name="DWH Batch FTP"/>
+    name="DWH Batch FTP"
+    id="id-509ce1262d5d4dc7aeb832b49b75d07e"/>

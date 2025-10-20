@@ -1,5 +1,4 @@
 <archimate:BusinessObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-0c9d196c2ae544a9b232b388abeb1f36"
-    name="Акция (промо)"/>
+    name="Акция (промо)"
+    id="id-0c9d196c2ae544a9b232b388abeb1f36"/>

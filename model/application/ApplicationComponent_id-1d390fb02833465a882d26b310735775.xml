@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-1d390fb02833465a882d26b310735775"
-    name="Payment Gateway"/>
+    name="Payment Gateway"
+    id="id-1d390fb02833465a882d26b310735775"/>

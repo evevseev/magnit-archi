@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-0d83138fde3b486c86823323bbe849f0"
-    name="Сборка заказа"/>
+    name="Сборка заказа"
+    id="id-0d83138fde3b486c86823323bbe849f0"/>

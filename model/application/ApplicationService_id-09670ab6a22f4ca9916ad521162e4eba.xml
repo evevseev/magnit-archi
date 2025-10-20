@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-09670ab6a22f4ca9916ad521162e4eba"
-    name="Возврат на кассе"/>
+    name="Возврат на кассе"
+    id="id-09670ab6a22f4ca9916ad521162e4eba"/>

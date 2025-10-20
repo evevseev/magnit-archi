@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-5a366c89e96b4f1d95bc82dd53b8bd43"
-    name="Антифрод-сервис"/>
+    name="Антифрод-сервис"
+    id="id-5a366c89e96b4f1d95bc82dd53b8bd43"/>

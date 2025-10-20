@@ -1,5 +1,4 @@
 <archimate:BusinessObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-c8605113312e480eb87c98e01e4079a8"
-    name="Просрочка"/>
+    name="Просрочка"
+    id="id-c8605113312e480eb87c98e01e4079a8"/>

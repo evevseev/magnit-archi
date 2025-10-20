@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-324a4b6e6c184d03960944db8b7d37d6"
-    name="Маркировка и этикетирование"/>
+    name="Маркировка и этикетирование"
+    id="id-324a4b6e6c184d03960944db8b7d37d6"/>

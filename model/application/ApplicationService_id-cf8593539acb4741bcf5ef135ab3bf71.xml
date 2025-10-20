@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-cf8593539acb4741bcf5ef135ab3bf71"
-    name="Начисление/списание баллов"/>
+    name="Начисление/списание баллов"
+    id="id-cf8593539acb4741bcf5ef135ab3bf71"/>

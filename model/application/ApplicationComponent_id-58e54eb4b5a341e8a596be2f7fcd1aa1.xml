@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-58e54eb4b5a341e8a596be2f7fcd1aa1"
-    name="Delivery App Backend"/>
+    name="Delivery App Backend"
+    id="id-58e54eb4b5a341e8a596be2f7fcd1aa1"/>

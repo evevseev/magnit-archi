@@ -1,5 +1,4 @@
 <archimate:CommunicationNetwork
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-b5761583c1db427099c5dfe2b8443411"
-    name="VLAN Guest"/>
+    name="VLAN Guest"
+    id="id-b5761583c1db427099c5dfe2b8443411"/>

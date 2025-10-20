@@ -1,5 +1,4 @@
 <archimate:DataObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-98ff55d40dd2480da6ca58d06393f84c"
-    name="Макет ценника"/>
+    name="Макет ценника"
+    id="id-98ff55d40dd2480da6ca58d06393f84c"/>

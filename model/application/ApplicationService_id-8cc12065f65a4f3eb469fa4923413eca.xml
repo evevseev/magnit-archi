@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-8cc12065f65a4f3eb469fa4923413eca"
-    name="Публикация мастер-данных (MDM)"/>
+    name="Публикация мастер-данных (MDM)"
+    id="id-8cc12065f65a4f3eb469fa4923413eca"/>

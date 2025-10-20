@@ -1,5 +1,4 @@
 <archimate:Goal
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-618ec7e3eb934bf0a4071705a8d3632f"
-    name="Исправление TI №5: Безопасный IPSec/Syslog TLS"/>
+    name="Исправление TI №5: Безопасный IPSec/Syslog TLS"
+    id="id-618ec7e3eb934bf0a4071705a8d3632f"/>

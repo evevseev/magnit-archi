@@ -1,5 +1,4 @@
 <archimate:Artifact
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-9e2c0b5e035543e78e7bd83b8cfec3b0"
-    name="Бэкап конфигов (централизованный)"/>
+    name="Бэкап конфигов (централизованный)"
+    id="id-9e2c0b5e035543e78e7bd83b8cfec3b0"/>

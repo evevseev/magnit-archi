@@ -1,5 +1,4 @@
 <archimate:TechnologyService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-bbaff565376547fd8d8b46e8502294d9"
-    name="802.1X/NAC аутентификация портов"/>
+    name="802.1X/NAC аутентификация портов"
+    id="id-bbaff565376547fd8d8b46e8502294d9"/>

@@ -1,5 +1,4 @@
 <archimate:BusinessService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-55894de0f1674cfbbca22cd398befbb2"
-    name="Сервис слотов и распределения"/>
+    name="Сервис слотов и распределения"
+    id="id-55894de0f1674cfbbca22cd398befbb2"/>

@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-69b4d5fdab6241eb86db74011324e0dd"
-    name="Событийная интеграция (Event Publishing)"/>
+    name="Событийная интеграция (Event Publishing)"
+    id="id-69b4d5fdab6241eb86db74011324e0dd"/>

@@ -1,5 +1,4 @@
 <archimate:TechnologyInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-56cc338485fe4bf08525eb46a793b41f"
-    name="WiFi 2.4 GHz"/>
+    name="WiFi 2.4 GHz"
+    id="id-56cc338485fe4bf08525eb46a793b41f"/>
