@@ -1,11 +1,11 @@
-<archimate:AssociationRelationship
+<archimate:InfluenceRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-2a84146bbe2d4a449f2e5a7192b355a5">
+    id="id-b184d5c1c1cc4f578a0878513762d20c">
   <source
       xsi:type="archimate:Value"
       href="Value_id-00000000000000000000000000000042.xml#id-00000000000000000000000000000042"/>
   <target
-      xsi:type="archimate:Requirement"
-      href="Requirement_id-0000000000000000000000000000002e.xml#id-0000000000000000000000000000002e"/>
-</archimate:AssociationRelationship>
+      xsi:type="archimate:Outcome"
+      href="Outcome_id-00000000000000000000000000000024.xml#id-00000000000000000000000000000024"/>
+</archimate:InfluenceRelationship>
