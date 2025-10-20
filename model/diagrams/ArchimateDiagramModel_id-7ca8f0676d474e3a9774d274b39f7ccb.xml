@@ -436,6 +436,15 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-7ad7fdad1e3b4859a1d5097934a9f4bd.xml#id-7ad7fdad1e3b4859a1d5097934a9f4bd"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-9263735e06f046a7a81c169c6969027a"
+        source="id-ee1eed1bac7f43b482caeeff0cda3b8c"
+        target="id-0c2d6b12ab7741f0af654289cf3439f6">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_id-095974636346466d9626b29dd803cd67.xml#id-095974636346466d9626b29dd803cd67"/>
+    </sourceConnections>
     <bounds
         x="100"
         y="930"
@@ -860,7 +869,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c84024dcbd3949f5ab8cf5e6cedd83f1"
-      targetConnections="id-d81d2f0f394f4722bae26b9f5ea0dbe0">
+      targetConnections="id-d81d2f0f394f4722bae26b9f5ea0dbe0 id-1a9995411ce747a19b870f695c4a37af">
     <bounds
         x="850"
         y="850"
@@ -1459,7 +1468,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-0c2d6b12ab7741f0af654289cf3439f6"
-      targetConnections="id-856e6eabfb084721961b3bbb6c4b2f25 id-1b163c52ab2644a792fb8dfc9b91d427 id-55734348ba9f44dd82e5e187ddf010c0 id-de6ee92c675c4510be7a7358c4ef8a54">
+      targetConnections="id-856e6eabfb084721961b3bbb6c4b2f25 id-1b163c52ab2644a792fb8dfc9b91d427 id-55734348ba9f44dd82e5e187ddf010c0 id-de6ee92c675c4510be7a7358c4ef8a54 id-9263735e06f046a7a81c169c6969027a">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-d81d2f0f394f4722bae26b9f5ea0dbe0"
@@ -1468,6 +1477,15 @@
       <archimateRelationship
           xsi:type="archimate:AccessRelationship"
           href="AccessRelationship_id-ab482a340c2f4b178beebe8386c84c12.xml#id-ab482a340c2f4b178beebe8386c84c12"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-1a9995411ce747a19b870f695c4a37af"
+        source="id-0c2d6b12ab7741f0af654289cf3439f6"
+        target="id-c84024dcbd3949f5ab8cf5e6cedd83f1">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-8530ef04ebe3442996456fee996435b3.xml#id-8530ef04ebe3442996456fee996435b3"/>
     </sourceConnections>
     <bounds
         x="1450"
