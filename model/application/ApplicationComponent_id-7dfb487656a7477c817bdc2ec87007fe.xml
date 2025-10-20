@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-7dfb487656a7477c817bdc2ec87007fe"
+    name="Event Bus (Kafka)"/>

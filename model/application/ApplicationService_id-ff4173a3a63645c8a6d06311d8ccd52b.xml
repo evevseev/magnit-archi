@@ -1,0 +1,5 @@
+<archimate:ApplicationService
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-ff4173a3a63645c8a6d06311d8ccd52b"
+    name="Синхронизация остатков (CDC)"/>
