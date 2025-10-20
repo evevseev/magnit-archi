@@ -1,0 +1,5 @@
+<archimate:ApplicationInterface
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-f1b0830de5c34ac7ac0a6a9dedf82a9f"
+    name="Event Bus Topic: order-events"/>
