@@ -1,5 +1,4 @@
 <archimate:DataObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-220b060a6a7e4e3b86a1e48cec2b1bcd"
-    name="Courier Assignment"/>
+    name="Courier Assignment"
+    id="id-220b060a6a7e4e3b86a1e48cec2b1bcd"/>

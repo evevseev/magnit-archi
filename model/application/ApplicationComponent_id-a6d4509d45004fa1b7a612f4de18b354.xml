@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-a6d4509d45004fa1b7a612f4de18b354"
-    name="Order Orchestrator"/>
+    name="Order Orchestrator"
+    id="id-a6d4509d45004fa1b7a612f4de18b354"/>

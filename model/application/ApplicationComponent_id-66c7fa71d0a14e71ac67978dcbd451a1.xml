@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-66c7fa71d0a14e71ac67978dcbd451a1"
-    name="Catalog Cache"/>
+    name="Catalog Cache"
+    id="id-66c7fa71d0a14e71ac67978dcbd451a1"/>

@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-04a15de4bad8493c883e12a92e7c25f1"
-    name="Оркестрация заказа"/>
+    name="Оркестрация заказа"
+    id="id-04a15de4bad8493c883e12a92e7c25f1"/>
