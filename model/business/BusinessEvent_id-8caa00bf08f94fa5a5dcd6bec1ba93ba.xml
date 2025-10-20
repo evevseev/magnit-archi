@@ -1,5 +1,4 @@
 <archimate:BusinessEvent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-8caa00bf08f94fa5a5dcd6bec1ba93ba"
-    name="Заказ сформирован"/>
+    name="Заказ сформирован"
+    id="id-8caa00bf08f94fa5a5dcd6bec1ba93ba"/>

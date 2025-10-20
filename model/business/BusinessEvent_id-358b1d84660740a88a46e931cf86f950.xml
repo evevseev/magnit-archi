@@ -1,5 +1,4 @@
 <archimate:BusinessEvent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-358b1d84660740a88a46e931cf86f950"
-    name="Доставка начата"/>
+    name="Доставка начата"
+    id="id-358b1d84660740a88a46e931cf86f950"/>

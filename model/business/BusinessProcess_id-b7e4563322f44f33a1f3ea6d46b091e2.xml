@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-b7e4563322f44f33a1f3ea6d46b091e2"
-    name="Мониторинг SLA и инцидентов"/>
+    name="Мониторинг SLA и инцидентов"
+    id="id-b7e4563322f44f33a1f3ea6d46b091e2"/>

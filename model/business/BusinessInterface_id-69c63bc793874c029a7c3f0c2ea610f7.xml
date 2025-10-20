@@ -1,5 +1,4 @@
 <archimate:BusinessInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-69c63bc793874c029a7c3f0c2ea610f7"
-    name="Канал уведомлений"/>
+    name="Канал уведомлений"
+    id="id-69c63bc793874c029a7c3f0c2ea610f7"/>
