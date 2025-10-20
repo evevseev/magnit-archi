@@ -1,5 +1,4 @@
 <archimate:BusinessRole
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-292dd0648aa6426f907f62f05820c2eb"
-    name="Менеджер по залу"/>
+    name="Менеджер по залу"
+    id="id-292dd0648aa6426f907f62f05820c2eb"/>

@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-e54632bfa5dc4cf28b0c27dc59593932"
-    name="Оплата через самообслуживание"/>
+    name="Оплата через самообслуживание"
+    id="id-e54632bfa5dc4cf28b0c27dc59593932"/>
