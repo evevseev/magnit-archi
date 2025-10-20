@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-8788006ca51f4ae59da4bbe51c7a2afd"
-    name="Мониторинг интеграций"/>
+    name="Мониторинг интеграций"
+    id="id-8788006ca51f4ae59da4bbe51c7a2afd"/>

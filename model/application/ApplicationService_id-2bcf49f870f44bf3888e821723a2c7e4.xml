@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-2bcf49f870f44bf3888e821723a2c7e4"
-    name="Мониторинг событий безопасности"/>
+    name="Мониторинг событий безопасности"
+    id="id-2bcf49f870f44bf3888e821723a2c7e4"/>

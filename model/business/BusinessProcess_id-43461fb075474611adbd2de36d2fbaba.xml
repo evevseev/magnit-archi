@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-43461fb075474611adbd2de36d2fbaba"
-    name="Управление персоналом и графиками"/>
+    name="Управление персоналом и графиками"
+    id="id-43461fb075474611adbd2de36d2fbaba"/>

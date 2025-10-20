@@ -1,5 +1,4 @@
 <archimate:SystemSoftware
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-8f36479054a04ffe9ba855bf59d2d042"
-    name="NVR OS"/>
+    name="NVR OS"
+    id="id-8f36479054a04ffe9ba855bf59d2d042"/>

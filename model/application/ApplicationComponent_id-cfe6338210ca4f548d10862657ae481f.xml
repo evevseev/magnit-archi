@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-cfe6338210ca4f548d10862657ae481f"
-    name="API Gateway"/>
+    name="API Gateway"
+    id="id-cfe6338210ca4f548d10862657ae481f"/>

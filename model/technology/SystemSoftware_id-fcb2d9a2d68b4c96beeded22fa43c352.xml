@@ -1,5 +1,4 @@
 <archimate:SystemSoftware
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-fcb2d9a2d68b4c96beeded22fa43c352"
-    name="Syslog TLS Collector"/>
+    name="Syslog TLS Collector"
+    id="id-fcb2d9a2d68b4c96beeded22fa43c352"/>

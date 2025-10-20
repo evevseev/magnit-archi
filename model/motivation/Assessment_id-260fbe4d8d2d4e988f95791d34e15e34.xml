@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-260fbe4d8d2d4e988f95791d34e15e34"
-    name="Ошибка №3: Дублирование остатков POS vs ERP"/>
+    name="Ошибка №3: Дублирование остатков POS vs ERP"
+    id="id-260fbe4d8d2d4e988f95791d34e15e34"/>

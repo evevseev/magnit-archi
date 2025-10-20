@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-585750523b5747f3a598d1231cef981a"
-    name="Управление акциями (CRM)"/>
+    name="Управление акциями (CRM)"
+    id="id-585750523b5747f3a598d1231cef981a"/>

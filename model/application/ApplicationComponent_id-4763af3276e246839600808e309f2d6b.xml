@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-4763af3276e246839600808e309f2d6b"
-    name="EAS/CCTV Collector"/>
+    name="EAS/CCTV Collector"
+    id="id-4763af3276e246839600808e309f2d6b"/>

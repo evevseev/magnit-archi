@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-5c46134e5a754596b1ba7ba030330e96"
-    name="Переоценка"/>
+    name="Переоценка"
+    id="id-5c46134e5a754596b1ba7ba030330e96"/>

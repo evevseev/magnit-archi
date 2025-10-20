@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-546540ed44754896b54112add69db0ae"
-    name="Печать ценников (POS)"/>
+    name="Печать ценников (POS)"
+    id="id-546540ed44754896b54112add69db0ae"/>

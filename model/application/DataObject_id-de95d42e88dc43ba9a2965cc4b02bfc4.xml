@@ -1,5 +1,4 @@
 <archimate:DataObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-de95d42e88dc43ba9a2965cc4b02bfc4"
-    name="Чек продажи"/>
+    name="Чек продажи"
+    id="id-de95d42e88dc43ba9a2965cc4b02bfc4"/>

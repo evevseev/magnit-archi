@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-c3b1bd614dd04dc6aab1357cf2bfb35f"
-    name="Ошибка №2: Прямая интеграция ТСД-ERP"/>
+    name="Ошибка №2: Прямая интеграция ТСД-ERP"
+    id="id-c3b1bd614dd04dc6aab1357cf2bfb35f"/>

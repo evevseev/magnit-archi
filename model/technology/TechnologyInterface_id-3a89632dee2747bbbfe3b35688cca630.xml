@@ -1,5 +1,4 @@
 <archimate:TechnologyInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-3a89632dee2747bbbfe3b35688cca630"
-    name="IPSec (IKEv2)"/>
+    name="IPSec (IKEv2)"
+    id="id-3a89632dee2747bbbfe3b35688cca630"/>

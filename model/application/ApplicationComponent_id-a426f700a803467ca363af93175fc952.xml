@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-a426f700a803467ca363af93175fc952"
-    name="Интеграционный мониторинг (APM/Tracing)"/>
+    name="Интеграционный мониторинг (APM/Tracing)"
+    id="id-a426f700a803467ca363af93175fc952"/>

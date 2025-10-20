@@ -1,5 +1,4 @@
 <archimate:TechnologyInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-ab34971a42824ddfa5e8dae85218d01a"
-    name="802.1X Port-Auth"/>
+    name="802.1X Port-Auth"
+    id="id-ab34971a42824ddfa5e8dae85218d01a"/>

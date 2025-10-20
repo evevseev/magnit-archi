@@ -1,5 +1,4 @@
 <archimate:TechnologyService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-ef741e1a95534f9c81f079252a77185a"
-    name="Syslog TLS сервис"/>
+    name="Syslog TLS сервис"
+    id="id-ef741e1a95534f9c81f079252a77185a"/>

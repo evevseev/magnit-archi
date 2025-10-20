@@ -1,5 +1,4 @@
 <archimate:CommunicationNetwork
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-4f5bf9fb78624cdabd878e37c0441429"
-    name="IPSec туннель CCTV/EAS"/>
+    name="IPSec туннель CCTV/EAS"
+    id="id-4f5bf9fb78624cdabd878e37c0441429"/>

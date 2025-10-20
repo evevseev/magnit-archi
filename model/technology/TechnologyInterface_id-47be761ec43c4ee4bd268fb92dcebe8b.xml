@@ -1,5 +1,4 @@
 <archimate:TechnologyInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-47be761ec43c4ee4bd268fb92dcebe8b"
-    name="LACP Port-Channel"/>
+    name="LACP Port-Channel"
+    id="id-47be761ec43c4ee4bd268fb92dcebe8b"/>

@@ -1,5 +1,4 @@
 <archimate:TechnologyInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-e50c3ca2b4054401a85cdcaed2f2f12d"
-    name="Syslog TLS 6514"/>
+    name="Syslog TLS 6514"
+    id="id-e50c3ca2b4054401a85cdcaed2f2f12d"/>

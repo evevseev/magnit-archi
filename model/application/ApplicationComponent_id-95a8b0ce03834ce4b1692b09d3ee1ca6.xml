@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-95a8b0ce03834ce4b1692b09d3ee1ca6"
-    name="Сервис лояльности"/>
+    name="Сервис лояльности"
+    id="id-95a8b0ce03834ce4b1692b09d3ee1ca6"/>

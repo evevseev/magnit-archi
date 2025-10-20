@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-edf36919f2de4279a85d149258007237"
-    name="Проверка антифрода"/>
+    name="Проверка антифрода"
+    id="id-edf36919f2de4279a85d149258007237"/>

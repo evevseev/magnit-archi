@@ -1,5 +1,4 @@
 <archimate:BusinessInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-266a39d99ea24c94bf51db1aa70b21e5"
-    name="Сканер штрих-кода"/>
+    name="Сканер штрих-кода"
+    id="id-266a39d99ea24c94bf51db1aa70b21e5"/>

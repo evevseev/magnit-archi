@@ -1,5 +1,4 @@
 <archimate:TechnologyService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-a0136856f124402281b18f59310083e2"
-    name="QoS для платежей"/>
+    name="QoS для платежей"
+    id="id-a0136856f124402281b18f59310083e2"/>

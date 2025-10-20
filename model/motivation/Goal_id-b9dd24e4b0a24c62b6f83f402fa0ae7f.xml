@@ -1,5 +1,4 @@
 <archimate:Goal
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-b9dd24e4b0a24c62b6f83f402fa0ae7f"
-    name="Исправление TI №4: Дублированное питание"/>
+    name="Исправление TI №4: Дублированное питание"
+    id="id-b9dd24e4b0a24c62b6f83f402fa0ae7f"/>

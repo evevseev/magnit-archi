@@ -1,5 +1,4 @@
 <archimate:CommunicationNetwork
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-ee6497821c9f429995362eb1aace8589"
-    name="VLAN POS"/>
+    name="VLAN POS"
+    id="id-ee6497821c9f429995362eb1aace8589"/>
