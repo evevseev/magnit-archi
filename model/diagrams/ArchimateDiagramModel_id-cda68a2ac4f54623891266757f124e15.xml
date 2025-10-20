@@ -121,10 +121,16 @@
       </sourceConnections>
       <bounds x="24" y="36" width="120" height="55" />
       <archimateElement xsi:type="archimate:BusinessProcess" href="BusinessProcess_id-7b1b26d6a8ec4222a9d90451f9f3a9a1.xml#id-7b1b26d6a8ec4222a9d90451f9f3a9a1" />
+      <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection" id="id-826c488249dc4009a617ee41d67fa8f9" source="id-4359b9df182946f6951dd07bce6a3959" target="id-a55d7b6a90ee4092a6afa1cd10105ae7">
+        <archimateRelationship xsi:type="archimate:AccessRelationship" href="AccessRelationship_id-eb49dd4295f74e55aa06fbac72ab68c1.xml#id-eb49dd4295f74e55aa06fbac72ab68c1" />
+      </sourceConnections>
     </children>
-    <children xsi:type="archimate:DiagramModelArchimateObject" id="id-8f4a976815374d9a8d4383033c1eefe3" targetConnections="id-afbb62592dc04a629a554f8410d1a456 id-6cbf182ab75f42c490908b6e95a2d683 id-24d6aa0fada74eb1aee5d416e9131885 id-cdc23290d288424db498b0ca5a9540dc id-3fa6852eca804acab93ea5c7e55c3c1c">
+    <children xsi:type="archimate:DiagramModelArchimateObject" id="id-8f4a976815374d9a8d4383033c1eefe3" targetConnections="id-afbb62592dc04a629a554f8410d1a456 id-6cbf182ab75f42c490908b6e95a2d683 id-24d6aa0fada74eb1aee5d416e9131885 id-cdc23290d288424db498b0ca5a9540dc id-3fa6852eca804acab93ea5c7e55c3c1c id-fb71b0fc19874c27b4a5db5b9bb7afa0">
       <bounds x="168" y="36" width="120" height="55" />
       <archimateElement xsi:type="archimate:BusinessProcess" href="BusinessProcess_id-21d4af4a56744504a1f8ae8fa2ecd57f.xml#id-21d4af4a56744504a1f8ae8fa2ecd57f" />
+      <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection" id="id-db0a0e9ac34848daa10b7538c26ba3ab" source="id-8f4a976815374d9a8d4383033c1eefe3" target="id-a55d7b6a90ee4092a6afa1cd10105ae7">
+        <archimateRelationship xsi:type="archimate:AccessRelationship" href="AccessRelationship_id-242e24b64587426690333925b86ee347.xml#id-242e24b64587426690333925b86ee347" />
+      </sourceConnections>
     </children>
     <archimateElement xsi:type="archimate:BusinessFunction" href="BusinessFunction_id-eb249ad85cb54b94bc78f835a78d4eb8.xml#id-eb249ad85cb54b94bc78f835a78d4eb8" />
   </children>
@@ -201,6 +207,9 @@
     </sourceConnections>
     <bounds x="1428" y="564" width="120" height="55" />
     <archimateElement xsi:type="archimate:BusinessRole" href="BusinessRole_id-060baed7a96c495cb9868ab2c54053cb.xml#id-060baed7a96c495cb9868ab2c54053cb" />
+    <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection" id="id-fb71b0fc19874c27b4a5db5b9bb7afa0" source="id-c37c21fb08d645798ca45432d72b2f9d" target="id-8f4a976815374d9a8d4383033c1eefe3">
+      <archimateRelationship xsi:type="archimate:AssignmentRelationship" href="AssignmentRelationship_id-c1227c59723a498390ca9b9db343bd49.xml#id-c1227c59723a498390ca9b9db343bd49" />
+    </sourceConnections>
   </children>
   <children xsi:type="archimate:DiagramModelArchimateObject" id="id-e817877b472d4db8afed78eb98aa736d" targetConnections="id-3ab55fafbdac4e0fa5b37a166b2b63b1">
     <sourceConnections xsi:type="archimate:DiagramModelArchimateConnection" id="id-453f64af21d54c5a810f09986c947bea" source="id-e817877b472d4db8afed78eb98aa736d" target="id-bae421d1b02e498e88db81129bfdbda5">
@@ -241,7 +250,7 @@
     <bounds x="924" y="840" width="120" height="55" />
     <archimateElement xsi:type="archimate:BusinessObject" href="BusinessObject_id-d25c87275477483b8d482714aa7dcbb8.xml#id-d25c87275477483b8d482714aa7dcbb8" />
   </children>
-  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-a55d7b6a90ee4092a6afa1cd10105ae7" targetConnections="id-3497f9b963a04f42a90a384dc8ada6bc">
+  <children xsi:type="archimate:DiagramModelArchimateObject" id="id-a55d7b6a90ee4092a6afa1cd10105ae7" targetConnections="id-3497f9b963a04f42a90a384dc8ada6bc id-db0a0e9ac34848daa10b7538c26ba3ab id-826c488249dc4009a617ee41d67fa8f9">
     <bounds x="1428" y="840" width="120" height="55" />
     <archimateElement xsi:type="archimate:BusinessObject" href="BusinessObject_id-98b89c66da6e48b0bb9bfa40b3476d3c.xml#id-98b89c66da6e48b0bb9bfa40b3476d3c" />
   </children>
