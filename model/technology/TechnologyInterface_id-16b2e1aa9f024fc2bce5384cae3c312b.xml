@@ -1,0 +1,5 @@
+<archimate:TechnologyInterface
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-16b2e1aa9f024fc2bce5384cae3c312b"
+    name="Syslog UDP/514"/>
