@@ -1,5 +1,4 @@
 <archimate:Node
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-beba360dc1474e50b42506e364095b58"
-    name="Локальный печатный сервер"/>
+    name="Локальный печатный сервер"
+    id="id-beba360dc1474e50b42506e364095b58"/>

@@ -1,5 +1,4 @@
 <archimate:BusinessInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-602574377084404380103668b6faa3b4"
-    name="Радиостанция персонала"/>
+    name="Радиостанция персонала"
+    id="id-602574377084404380103668b6faa3b4"/>

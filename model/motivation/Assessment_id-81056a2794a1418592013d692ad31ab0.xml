@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-81056a2794a1418592013d692ad31ab0"
-    name="Ошибка AS-IS: Несогласованность оплаты и возвратов"/>
+    name="Ошибка AS-IS: Несогласованность оплаты и возвратов"
+    id="id-81056a2794a1418592013d692ad31ab0"/>

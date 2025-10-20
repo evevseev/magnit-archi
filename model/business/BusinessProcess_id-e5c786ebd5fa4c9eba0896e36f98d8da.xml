@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-e5c786ebd5fa4c9eba0896e36f98d8da"
-    name="Закрытие смены"/>
+    name="Закрытие смены"
+    id="id-e5c786ebd5fa4c9eba0896e36f98d8da"/>

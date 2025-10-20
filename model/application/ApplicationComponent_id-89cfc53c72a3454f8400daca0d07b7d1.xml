@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-89cfc53c72a3454f8400daca0d07b7d1"
-    name="Клиентское ПО ТСД"/>
+    name="Клиентское ПО ТСД"
+    id="id-89cfc53c72a3454f8400daca0d07b7d1"/>

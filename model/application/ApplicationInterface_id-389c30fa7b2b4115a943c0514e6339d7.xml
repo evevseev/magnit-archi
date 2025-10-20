@@ -1,5 +1,4 @@
 <archimate:ApplicationInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-389c30fa7b2b4115a943c0514e6339d7"
-    name="SIEM Syslog"/>
+    name="SIEM Syslog"
+    id="id-389c30fa7b2b4115a943c0514e6339d7"/>

@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-3544bde01c824f939567bb5e15171263"
-    name="Аудит операций (Audit Trail)"/>
+    name="Аудит операций (Audit Trail)"
+    id="id-3544bde01c824f939567bb5e15171263"/>

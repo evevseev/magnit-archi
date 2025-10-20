@@ -1,5 +1,4 @@
 <archimate:SystemSoftware
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-a7e18f7d85be41aba1700327f74f4644"
-    name="AP Firmware"/>
+    name="AP Firmware"
+    id="id-a7e18f7d85be41aba1700327f74f4644"/>

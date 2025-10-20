@@ -1,5 +1,4 @@
 <archimate:TechnologyService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-7404c44d980c4ec89cb10c313f04d660"
-    name="LACP агрегирование"/>
+    name="LACP агрегирование"
+    id="id-7404c44d980c4ec89cb10c313f04d660"/>

@@ -1,5 +1,4 @@
 <archimate:Equipment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-e1a2a6e6a09e4ccaae2f1ff9786a27a7"
-    name="UPS B (сетевое)"/>
+    name="UPS B (сетевое)"
+    id="id-e1a2a6e6a09e4ccaae2f1ff9786a27a7"/>

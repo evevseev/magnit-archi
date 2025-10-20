@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-544b499fa035412d8422feb85e1101d9"
-    name="Ошибка AS-IS: Слабая связность данных о доставке между процессами"/>
+    name="Ошибка AS-IS: Слабая связность данных о доставке между процессами"
+    id="id-544b499fa035412d8422feb85e1101d9"/>

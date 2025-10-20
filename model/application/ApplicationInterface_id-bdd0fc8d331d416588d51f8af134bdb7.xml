@@ -1,5 +1,4 @@
 <archimate:ApplicationInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-bdd0fc8d331d416588d51f8af134bdb7"
-    name="ERP API"/>
+    name="ERP API"
+    id="id-bdd0fc8d331d416588d51f8af134bdb7"/>

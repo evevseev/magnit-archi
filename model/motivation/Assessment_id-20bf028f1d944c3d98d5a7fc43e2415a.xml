@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-20bf028f1d944c3d98d5a7fc43e2415a"
-    name="Ошибка AS-IS: Избыточные точки доступа к «Чеку»"/>
+    name="Ошибка AS-IS: Избыточные точки доступа к «Чеку»"
+    id="id-20bf028f1d944c3d98d5a7fc43e2415a"/>

@@ -1,5 +1,4 @@
 <archimate:CommunicationNetwork
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-c94dcf1919144a95aad261e688af9b37"
-    name="WAN MPLS канал"/>
+    name="WAN MPLS канал"
+    id="id-c94dcf1919144a95aad261e688af9b37"/>

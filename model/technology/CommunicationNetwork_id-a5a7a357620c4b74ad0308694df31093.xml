@@ -1,5 +1,4 @@
 <archimate:CommunicationNetwork
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-a5a7a357620c4b74ad0308694df31093"
-    name="WiFi SSID — Corp"/>
+    name="WiFi SSID — Corp"
+    id="id-a5a7a357620c4b74ad0308694df31093"/>

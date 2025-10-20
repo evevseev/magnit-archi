@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-f0e78377747d4bd89e7fe50ac6427503"
-    name="Ошибка AS-IS: Дублирование сервисов поддержки (&quot;Сервис поддержки клиентов&quot; vs &quot;Сервис поддержки&quot;)"/>
+    name="Ошибка AS-IS: Дублирование сервисов поддержки (&quot;Сервис поддержки клиентов&quot; vs &quot;Сервис поддержки&quot;)"
+    id="id-f0e78377747d4bd89e7fe50ac6427503"/>

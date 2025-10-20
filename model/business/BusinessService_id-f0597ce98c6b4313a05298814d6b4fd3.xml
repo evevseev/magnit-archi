@@ -1,5 +1,4 @@
 <archimate:BusinessService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-f0597ce98c6b4313a05298814d6b4fd3"
-    name="Сервис отчётности магазина"/>
+    name="Сервис отчётности магазина"
+    id="id-f0597ce98c6b4313a05298814d6b4fd3"/>

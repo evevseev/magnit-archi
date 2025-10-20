@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-f84e1785c5ec489e96e7dc73ce612735"
-    name="Оплата наличными"/>
+    name="Оплата наличными"
+    id="id-f84e1785c5ec489e96e7dc73ce612735"/>

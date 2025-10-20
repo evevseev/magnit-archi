@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-421d9c04ecca4077abe8c274e9a8063f"
-    name="Ошибка №1: Дублирование сервиса печати"/>
+    name="Ошибка №1: Дублирование сервиса печати"
+    id="id-421d9c04ecca4077abe8c274e9a8063f"/>

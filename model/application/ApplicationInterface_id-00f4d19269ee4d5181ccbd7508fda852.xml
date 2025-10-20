@@ -1,5 +1,4 @@
 <archimate:ApplicationInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-00f4d19269ee4d5181ccbd7508fda852"
-    name="ESB MQ канал"/>
+    name="ESB MQ канал"
+    id="id-00f4d19269ee4d5181ccbd7508fda852"/>

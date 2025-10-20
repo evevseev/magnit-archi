@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-383efc4fe1684c65a673202e7e1347ab"
-    name="Инвентаризация в магазине"/>
+    name="Инвентаризация в магазине"
+    id="id-383efc4fe1684c65a673202e7e1347ab"/>

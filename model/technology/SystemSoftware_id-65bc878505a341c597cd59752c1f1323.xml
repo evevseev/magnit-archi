@@ -1,5 +1,4 @@
 <archimate:SystemSoftware
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-65bc878505a341c597cd59752c1f1323"
-    name="Android Handheld OS"/>
+    name="Android Handheld OS"
+    id="id-65bc878505a341c597cd59752c1f1323"/>

@@ -1,5 +1,4 @@
 <archimate:Device
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-0d420e7ff0a44f82a2732132a33aaac8"
-    name="IP-камера — кассовая зона"/>
+    name="IP-камера — кассовая зона"
+    id="id-0d420e7ff0a44f82a2732132a33aaac8"/>

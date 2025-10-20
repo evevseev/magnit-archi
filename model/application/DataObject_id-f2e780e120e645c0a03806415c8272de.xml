@@ -1,5 +1,4 @@
 <archimate:DataObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-f2e780e120e645c0a03806415c8272de"
-    name="Инцидент безопасности (нормализованный)"/>
+    name="Инцидент безопасности (нормализованный)"
+    id="id-f2e780e120e645c0a03806415c8272de"/>

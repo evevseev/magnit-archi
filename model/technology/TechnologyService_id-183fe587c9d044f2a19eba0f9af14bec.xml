@@ -1,5 +1,4 @@
 <archimate:TechnologyService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-183fe587c9d044f2a19eba0f9af14bec"
-    name="Коммутация Ethernet"/>
+    name="Коммутация Ethernet"
+    id="id-183fe587c9d044f2a19eba0f9af14bec"/>

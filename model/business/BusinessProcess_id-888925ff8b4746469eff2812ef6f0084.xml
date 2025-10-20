@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-888925ff8b4746469eff2812ef6f0084"
-    name="Инкассация"/>
+    name="Инкассация"
+    id="id-888925ff8b4746469eff2812ef6f0084"/>
