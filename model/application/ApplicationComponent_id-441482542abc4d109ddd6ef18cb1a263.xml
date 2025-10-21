@@ -1,0 +1,11 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Notifications System"
+    id="id-441482542abc4d109ddd6ef18cb1a263">
+  <properties
+      key="Layer"
+      value="IS"/>
+  <properties
+      key="Area"
+      value="Запись"/>
+</archimate:ApplicationComponent>

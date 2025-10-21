@@ -1,0 +1,11 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Auth Service"
+    id="id-0bb24dfcea5743759ed23a3330830ee6">
+  <properties
+      key="Layer"
+      value="IS"/>
+  <properties
+      key="Area"
+      value="Общий"/>
+</archimate:ApplicationComponent>
