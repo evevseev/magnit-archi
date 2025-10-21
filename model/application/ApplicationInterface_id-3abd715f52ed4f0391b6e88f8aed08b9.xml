@@ -1,5 +1,4 @@
 <archimate:ApplicationInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-3abd715f52ed4f0391b6e88f8aed08b9"
-    name="Audit Log Endpoint"/>
+    name="Audit Log Endpoint"
+    id="id-3abd715f52ed4f0391b6e88f8aed08b9"/>

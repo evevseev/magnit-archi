@@ -1,5 +1,4 @@
 <archimate:BusinessRole
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-363b18fbf4e04fa8a585c53c99e7447f"
-    name="Охранник"/>
+    name="Охранник"
+    id="id-363b18fbf4e04fa8a585c53c99e7447f"/>

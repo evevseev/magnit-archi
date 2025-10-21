@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-c5a44c54f55e4f29bbb94693a1875fe2"
-    name="Ошибка TI №5: Устаревший VPN L2TP для CCTV"/>
+    name="Ошибка TI №5: Устаревший VPN L2TP для CCTV"
+    id="id-c5a44c54f55e4f29bbb94693a1875fe2"/>

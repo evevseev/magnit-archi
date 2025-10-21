@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-065bcb9911a342da90da22eeffd3fb71"
-    name="Управление акциями"/>
+    name="Управление акциями"
+    id="id-065bcb9911a342da90da22eeffd3fb71"/>

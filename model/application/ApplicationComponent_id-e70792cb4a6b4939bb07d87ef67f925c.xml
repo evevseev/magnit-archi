@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-e70792cb4a6b4939bb07d87ef67f925c"
-    name="POS Cache Manager"/>
+    name="POS Cache Manager"
+    id="id-e70792cb4a6b4939bb07d87ef67f925c"/>

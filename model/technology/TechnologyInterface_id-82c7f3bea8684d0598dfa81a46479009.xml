@@ -1,5 +1,4 @@
 <archimate:TechnologyInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-82c7f3bea8684d0598dfa81a46479009"
-    name="VPN L2TP интерфейс"/>
+    name="VPN L2TP интерфейс"
+    id="id-82c7f3bea8684d0598dfa81a46479009"/>

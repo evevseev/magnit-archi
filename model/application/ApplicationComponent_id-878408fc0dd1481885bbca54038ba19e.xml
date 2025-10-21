@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-878408fc0dd1481885bbca54038ba19e"
-    name="Inventory Sync сервис"/>
+    name="Inventory Sync сервис"
+    id="id-878408fc0dd1481885bbca54038ba19e"/>

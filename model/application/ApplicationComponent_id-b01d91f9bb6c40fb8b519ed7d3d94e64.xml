@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-b01d91f9bb6c40fb8b519ed7d3d94e64"
-    name="Промо-движок"/>
+    name="Промо-движок"
+    id="id-b01d91f9bb6c40fb8b519ed7d3d94e64"/>

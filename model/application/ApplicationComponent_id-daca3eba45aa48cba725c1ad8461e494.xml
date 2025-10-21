@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-daca3eba45aa48cba725c1ad8461e494"
-    name="SIEM/Сборщик событий"/>
+    name="SIEM/Сборщик событий"
+    id="id-daca3eba45aa48cba725c1ad8461e494"/>

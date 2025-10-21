@@ -1,5 +1,4 @@
 <archimate:TechnologyService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-989a149d448e4b3c8a78223255f031a3"
-    name="DNS форвардинг"/>
+    name="DNS форвардинг"
+    id="id-989a149d448e4b3c8a78223255f031a3"/>

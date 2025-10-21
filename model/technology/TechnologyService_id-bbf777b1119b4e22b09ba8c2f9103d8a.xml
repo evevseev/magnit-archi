@@ -1,5 +1,4 @@
 <archimate:TechnologyService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-bbf777b1119b4e22b09ba8c2f9103d8a"
-    name="DHCP сервис"/>
+    name="DHCP сервис"
+    id="id-bbf777b1119b4e22b09ba8c2f9103d8a"/>

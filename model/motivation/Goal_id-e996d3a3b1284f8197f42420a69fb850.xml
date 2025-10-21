@@ -1,5 +1,4 @@
 <archimate:Goal
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-e996d3a3b1284f8197f42420a69fb850"
-    name="Исправление TI №3: Централизованный NTP"/>
+    name="Исправление TI №3: Централизованный NTP"
+    id="id-e996d3a3b1284f8197f42420a69fb850"/>

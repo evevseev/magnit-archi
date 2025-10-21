@@ -1,5 +1,4 @@
 <archimate:TechnologyInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-e456de3c7ddc41dc867dae1c506bb4dc"
-    name="Ethernet 1G (Gi0/1)"/>
+    name="Ethernet 1G (Gi0/1)"
+    id="id-e456de3c7ddc41dc867dae1c506bb4dc"/>

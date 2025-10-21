@@ -1,5 +1,4 @@
 <archimate:SystemSoftware
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-cb5b94454f0f4b59b85925f142fc18f1"
-    name="Windows POS OS"/>
+    name="Windows POS OS"
+    id="id-cb5b94454f0f4b59b85925f142fc18f1"/>

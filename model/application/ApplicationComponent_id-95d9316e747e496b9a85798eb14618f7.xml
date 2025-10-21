@@ -1,5 +1,4 @@
 <archimate:ApplicationComponent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-95d9316e747e496b9a85798eb14618f7"
-    name="ERP (бэк-офис предприятия)"/>
+    name="ERP (бэк-офис предприятия)"
+    id="id-95d9316e747e496b9a85798eb14618f7"/>

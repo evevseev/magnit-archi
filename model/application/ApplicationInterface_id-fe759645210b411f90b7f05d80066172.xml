@@ -1,5 +1,4 @@
 <archimate:ApplicationInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-fe759645210b411f90b7f05d80066172"
-    name="Handheld SDK"/>
+    name="Handheld SDK"
+    id="id-fe759645210b411f90b7f05d80066172"/>

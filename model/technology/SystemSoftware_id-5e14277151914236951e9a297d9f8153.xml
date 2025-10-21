@@ -1,5 +1,4 @@
 <archimate:SystemSoftware
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-5e14277151914236951e9a297d9f8153"
-    name="SwitchOS"/>
+    name="SwitchOS"
+    id="id-5e14277151914236951e9a297d9f8153"/>

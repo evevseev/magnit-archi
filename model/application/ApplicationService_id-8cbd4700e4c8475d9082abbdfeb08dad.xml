@@ -1,5 +1,4 @@
 <archimate:ApplicationService
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-8cbd4700e4c8475d9082abbdfeb08dad"
-    name="Аудит операций"/>
+    name="Аудит операций"
+    id="id-8cbd4700e4c8475d9082abbdfeb08dad"/>

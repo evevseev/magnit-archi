@@ -1,5 +1,4 @@
 <archimate:ApplicationInterface
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-f793a65a0b0048ef869e3a5a1d6413a8"
-    name="Inventory API"/>
+    name="Inventory API"
+    id="id-f793a65a0b0048ef869e3a5a1d6413a8"/>

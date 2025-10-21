@@ -1,5 +1,4 @@
 <archimate:Device
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-037d35feb74f437c835f34f0f86565af"
-    name="Точка доступа WiFi #1"/>
+    name="Точка доступа WiFi #1"
+    id="id-037d35feb74f437c835f34f0f86565af"/>

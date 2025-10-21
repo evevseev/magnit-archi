@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-824b495fc40d4d52b7386688f462e7e3"
-    name="Ошибка TI №3: Отсутствует NTP"/>
+    name="Ошибка TI №3: Отсутствует NTP"
+    id="id-824b495fc40d4d52b7386688f462e7e3"/>

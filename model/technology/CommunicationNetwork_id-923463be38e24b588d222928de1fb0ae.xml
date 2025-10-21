@@ -1,5 +1,4 @@
 <archimate:CommunicationNetwork
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-923463be38e24b588d222928de1fb0ae"
-    name="VLAN EAS"/>
+    name="VLAN EAS"
+    id="id-923463be38e24b588d222928de1fb0ae"/>
