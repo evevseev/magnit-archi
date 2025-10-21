@@ -471,7 +471,9 @@ class Validator:
         archi = str(self.archi_bin)
         if not os.access(archi, os.X_OK):
             self.fail(f"Archi binary not executable: {archi}")
+            se
             return
+        
         try:
             proc = subprocess.run(
                 [archi, "-application", "com.archimatetool.commandline.app", "-consoleLog", "-nosplash",
