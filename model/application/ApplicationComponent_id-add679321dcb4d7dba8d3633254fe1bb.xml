@@ -1,0 +1,11 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Booking App"
+    id="id-add679321dcb4d7dba8d3633254fe1bb">
+  <properties
+      key="Layer"
+      value="IS"/>
+  <properties
+      key="Area"
+      value="Запись"/>
+</archimate:ApplicationComponent>
