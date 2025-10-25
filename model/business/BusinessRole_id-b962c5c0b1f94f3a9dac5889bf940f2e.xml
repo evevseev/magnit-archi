@@ -1,5 +1,4 @@
 <archimate:BusinessRole
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-b962c5c0b1f94f3a9dac5889bf940f2e"
-    name="Координатор снабжения"/>
+    name="Координатор снабжения"
+    id="id-b962c5c0b1f94f3a9dac5889bf940f2e"/>

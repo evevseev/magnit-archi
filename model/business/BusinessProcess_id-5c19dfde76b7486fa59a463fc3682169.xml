@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-5c19dfde76b7486fa59a463fc3682169"
-    name="Управление возвратной тарой"/>
+    name="Управление возвратной тарой"
+    id="id-5c19dfde76b7486fa59a463fc3682169"/>

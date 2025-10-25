@@ -1,5 +1,4 @@
 <archimate:BusinessObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-a712517799ef4299ad5f594248ee657b"
-    name="План поставок"/>
+    name="План поставок"
+    id="id-a712517799ef4299ad5f594248ee657b"/>

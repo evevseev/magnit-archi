@@ -1,5 +1,4 @@
 <archimate:BusinessObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-27043ac718f6490aa3ac9d51dea6ff7f"
-    name="Маршрутный лист"/>
+    name="Маршрутный лист"
+    id="id-27043ac718f6490aa3ac9d51dea6ff7f"/>

@@ -1,5 +1,4 @@
 <archimate:BusinessRole
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-3085a77a88a2423a9fab16c5937659e4"
-    name="Специалист по таре"/>
+    name="Специалист по таре"
+    id="id-3085a77a88a2423a9fab16c5937659e4"/>

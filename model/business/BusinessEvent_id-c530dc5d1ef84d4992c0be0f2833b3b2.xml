@@ -1,5 +1,4 @@
 <archimate:BusinessEvent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-c530dc5d1ef84d4992c0be0f2833b3b2"
-    name="Возврат поставщику отправлен"/>
+    name="Возврат поставщику отправлен"
+    id="id-c530dc5d1ef84d4992c0be0f2833b3b2"/>

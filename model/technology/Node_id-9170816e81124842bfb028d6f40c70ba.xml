@@ -1,5 +1,4 @@
 <archimate:Node
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-9170816e81124842bfb028d6f40c70ba"
-    name="Маршрутизатор магазина (резервный)"/>
+    name="Маршрутизатор магазина (резервный)"
+    id="id-9170816e81124842bfb028d6f40c70ba"/>

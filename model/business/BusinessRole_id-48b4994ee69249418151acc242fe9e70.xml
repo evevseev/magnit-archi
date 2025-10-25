@@ -1,5 +1,4 @@
 <archimate:BusinessRole
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-48b4994ee69249418151acc242fe9e70"
-    name="Водитель грузовика"/>
+    name="Водитель грузовика"
+    id="id-48b4994ee69249418151acc242fe9e70"/>

@@ -1,5 +1,4 @@
 <archimate:BusinessEvent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-b3391ae6bc334fe882cc8155693ffde6"
-    name="Поставка прибыла на РЦ"/>
+    name="Поставка прибыла на РЦ"
+    id="id-b3391ae6bc334fe882cc8155693ffde6"/>

@@ -1,5 +1,4 @@
 <archimate:CommunicationNetwork
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-cd2d8990649142b58775eb01f3d991c7"
-    name="WAN LTE канал (резерв)"/>
+    name="WAN LTE канал (резерв)"
+    id="id-cd2d8990649142b58775eb01f3d991c7"/>

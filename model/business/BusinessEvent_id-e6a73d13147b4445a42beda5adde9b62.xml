@@ -1,5 +1,4 @@
 <archimate:BusinessEvent
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-e6a73d13147b4445a42beda5adde9b62"
-    name="Межскладское перемещение создано"/>
+    name="Межскладское перемещение создано"
+    id="id-e6a73d13147b4445a42beda5adde9b62"/>

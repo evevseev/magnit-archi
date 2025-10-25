@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-1fb58de6f740419a86f2cc000062d012"
-    name="Кросс-докинг"/>
+    name="Кросс-докинг"
+    id="id-1fb58de6f740419a86f2cc000062d012"/>

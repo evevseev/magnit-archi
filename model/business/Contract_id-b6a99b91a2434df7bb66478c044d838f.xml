@@ -1,5 +1,4 @@
 <archimate:Contract
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-b6a99b91a2434df7bb66478c044d838f"
-    name="Регламент температурного режима"/>
+    name="Регламент температурного режима"
+    id="id-b6a99b91a2434df7bb66478c044d838f"/>
