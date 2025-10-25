@@ -282,8 +282,8 @@
           href="AccessRelationship_id-451a568406ca44c08e721706553f4be0.xml#id-451a568406ca44c08e721706553f4be0"/>
     </sourceConnections>
     <bounds
-        x="372"
-        y="-660"
+        x="673"
+        y="-616"
         width="120"
         height="55"/>
     <archimateElement
@@ -551,8 +551,8 @@
       id="id-cd5b3dd0a3144be58406da3309077a03"
       targetConnections="id-466a3da16021454d8766194ec49b5c6d">
     <bounds
-        x="372"
-        y="-570"
+        x="505"
+        y="-616"
         width="120"
         height="55"/>
     <archimateElement

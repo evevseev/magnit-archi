@@ -308,8 +308,8 @@
           href="CompositionRelationship_id-a4a41af9135b46f6ab973f5b6c4dd9d0.xml#id-a4a41af9135b46f6ab973f5b6c4dd9d0"/>
     </sourceConnections>
     <bounds
-        x="40"
-        y="680"
+        x="288"
+        y="732"
         width="120"
         height="55"/>
     <archimateElement
@@ -768,8 +768,8 @@
       id="id-9cc3aa667a1e44faadbad52189ecc7d1"
       targetConnections="id-fbe2ce3722024df78cfd6dbb2291bbdf id-8d80c1f5dc9c4f0fa577f866dfeaf5f4 id-96d3a9a57d5b4803a676980e630243af">
     <bounds
-        x="560"
-        y="360"
+        x="324"
+        y="828"
         width="120"
         height="55"/>
     <archimateElement
