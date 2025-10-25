@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="POS-система (кассовое ПО)"
-    id="id-14c4dbee29cf491099fc6212e7492774"/>
+    name="Центральная POS-система "
+    id="id-14c4dbee29cf491099fc6212e7492774"
+    documentation="Eдиная платформа для управления заказами, складом, курьерами и платежами"/>
