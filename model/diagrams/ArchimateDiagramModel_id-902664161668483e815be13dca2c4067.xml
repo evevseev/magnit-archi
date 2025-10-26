@@ -505,7 +505,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-521e242576554d78b0041c351109cb82"
-      targetConnections="id-90b4b264d8414a27a130eb3dce5461c4 id-da9c508bbb9846439036fb4615aa0c18">
+      targetConnections="id-da9c508bbb9846439036fb4615aa0c18 id-90b4b264d8414a27a130eb3dce5461c4">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-41f2c06c0c3041fd9eaebce3abf6d9f8"

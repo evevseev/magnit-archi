@@ -3,7 +3,6 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Онлайн доставка — Архитектура информационных систем (AS-IS)"
     id="id-ecc9576cf5774cffae99df0395a292d7"
-    documentation="AS-IS архитектура ИС домена «Онлайн доставка»: ключевые компоненты (POS, CRM, ERP, WMS, MDM, ESB, API GW, Event Bus), интерфейсы (API, MQ, Topics), прикладные сервисы (каталог SKU, остатки, промо, лояльность, антифрод, экспорт чеков) и данные. Явные слабые места: 1) Дубли интеграции ESB vs Event Bus на одних и тех же доменах; 2) Точка-точка ERP интеграции в обход шлюзов; 3) Несогласованная кэш-стратегия POS (POS Cache vs Inventory API); 4) Отсутствует централизованный мониторинг для части каналов (Audit/Tracing частично обходит ESB); 5) Разрыв промо-правил (CRM vs Промо-движок); 6) CDC и Event publishing пересекаются по stock; 7) Слабая непротиворечивость каталога SKU (MDM vs локальные кэши). Цель — подготовить базу для TO-BE централизации интеграций и унификации доменных контрактов."
     viewpoint="Application">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
