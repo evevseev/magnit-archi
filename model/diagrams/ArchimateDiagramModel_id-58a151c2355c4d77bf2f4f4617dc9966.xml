@@ -131,7 +131,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-80a714938ce04f12a6e1f7079f2254c5"
-      targetConnections="id-6bb1a5cf657f4c0ea9543a1aa8dc5742 id-426dbcd714204787bcd8dc1b27759f18 id-21e23bff08b7469595ed172f695f0fc8 id-32da7d76f986414aab08a4e5c6cc30c3 id-855a85a3659b4440ba2d3962a059b6c4 id-09fda62d0b8e4b2d93b7013c7322f8c9 id-e9bf1d59f2ab4d45953e90c69cd4b928 id-da5580906ec3470ebefe591fc65498ce">
+      targetConnections="id-6bb1a5cf657f4c0ea9543a1aa8dc5742 id-426dbcd714204787bcd8dc1b27759f18 id-21e23bff08b7469595ed172f695f0fc8 id-32da7d76f986414aab08a4e5c6cc30c3 id-855a85a3659b4440ba2d3962a059b6c4 id-09fda62d0b8e4b2d93b7013c7322f8c9 id-e9bf1d59f2ab4d45953e90c69cd4b928 id-da5580906ec3470ebefe591fc65498ce"
+      fillColor="#ff8080">
     <bounds
         x="-36"
         y="-714"
