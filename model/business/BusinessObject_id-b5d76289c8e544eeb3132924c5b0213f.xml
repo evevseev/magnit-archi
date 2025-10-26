@@ -1,5 +1,4 @@
 <archimate:BusinessObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-b5d76289c8e544eeb3132924c5b0213f"
-    name="Заявка на межскладское перемещение"/>
+    name="Заявка на межскладское перемещение"
+    id="id-b5d76289c8e544eeb3132924c5b0213f"/>

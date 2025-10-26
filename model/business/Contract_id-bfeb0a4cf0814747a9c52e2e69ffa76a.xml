@@ -1,5 +1,4 @@
 <archimate:Contract
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-bfeb0a4cf0814747a9c52e2e69ffa76a"
-    name="SLA приемки поставщика"/>
+    name="SLA приемки поставщика"
+    id="id-bfeb0a4cf0814747a9c52e2e69ffa76a"/>

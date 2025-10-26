@@ -1,5 +1,4 @@
 <archimate:Device
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-fe093d9e3db24ad7904e78aceaaae191"
-    name="LTE модем"/>
+    name="LTE модем"
+    id="id-fe093d9e3db24ad7904e78aceaaae191"/>

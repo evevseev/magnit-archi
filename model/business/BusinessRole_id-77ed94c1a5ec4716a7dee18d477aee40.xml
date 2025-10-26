@@ -1,5 +1,4 @@
 <archimate:BusinessRole
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-77ed94c1a5ec4716a7dee18d477aee40"
-    name="Начальник смены РЦ"/>
+    name="Начальник смены РЦ"
+    id="id-77ed94c1a5ec4716a7dee18d477aee40"/>

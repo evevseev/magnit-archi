@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-081a276dd0124deea13ba5b8a5f4e7af"
-    name="Ошибка AS-IS — Дубли «Назначение сборщика»"/>
+    name="Ошибка AS-IS — Дубли «Назначение сборщика»"
+    id="id-081a276dd0124deea13ba5b8a5f4e7af"/>

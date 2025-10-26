@@ -1,5 +1,4 @@
 <archimate:BusinessObject
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-fc791259fb574dfba1164533566dfb76"
-    name="УПД"/>
+    name="УПД"
+    id="id-fc791259fb574dfba1164533566dfb76"/>

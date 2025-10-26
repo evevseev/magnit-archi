@@ -1,5 +1,4 @@
 <archimate:Assessment
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-834b413c3d15424ea9e508393d74ea42"
-    name="Ошибка AS-IS — Неправильная привязка SLA доставки"/>
+    name="Ошибка AS-IS — Неправильная привязка SLA доставки"
+    id="id-834b413c3d15424ea9e508393d74ea42"/>

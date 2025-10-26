@@ -1,5 +1,4 @@
 <archimate:BusinessProcess
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-76997a1ca3c04bb792b284b9002a9348"
-    name="Размещение на РЦ"/>
+    name="Размещение на РЦ"
+    id="id-76997a1ca3c04bb792b284b9002a9348"/>
