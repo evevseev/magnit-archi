@@ -1,4 +1,5 @@
 <archimate:CommunicationNetwork
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="VLAN POS"
-    id="id-ee6497821c9f429995362eb1aace8589"/>
+    name="VLAN POS "
+    id="id-ee6497821c9f429995362eb1aace8589"
+    documentation="(сеть для кассовых тнрминалов)"/>

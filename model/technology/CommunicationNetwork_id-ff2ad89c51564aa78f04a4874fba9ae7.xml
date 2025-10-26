@@ -1,4 +1,5 @@
 <archimate:CommunicationNetwork
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="VLAN CCTV"
-    id="id-ff2ad89c51564aa78f04a4874fba9ae7"/>
+    name="VLAN CCTV "
+    id="id-ff2ad89c51564aa78f04a4874fba9ae7"
+    documentation="(сеть для системы наблюдения)"/>
