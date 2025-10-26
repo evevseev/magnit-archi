@@ -4,8 +4,8 @@
     id="id-6007bed6999e41e5aeb09f6a3b98f484">
   <source
       xsi:type="archimate:Meaning"
-      href="../motivation/Meaning_id-b8d8a63145a344fd959bdd99c1b742df.xml#id-b8d8a63145a344fd959bdd99c1b742df"/>
+      href="Meaning_id-b8d8a63145a344fd959bdd99c1b742df.xml#id-b8d8a63145a344fd959bdd99c1b742df"/>
   <target
       xsi:type="archimate:Value"
-      href="../motivation/Value_id-00000000000000000000000000000041.xml#id-00000000000000000000000000000041"/>
+      href="Value_id-00000000000000000000000000000041.xml#id-00000000000000000000000000000041"/>
 </archimate:AssociationRelationship>

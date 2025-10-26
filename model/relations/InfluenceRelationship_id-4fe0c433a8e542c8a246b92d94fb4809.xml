@@ -4,8 +4,8 @@
     id="id-4fe0c433a8e542c8a246b92d94fb4809">
   <source
       xsi:type="archimate:Requirement"
-      href="../motivation/Requirement_id-0000000000000000000000000000002b.xml#id-0000000000000000000000000000002b"/>
+      href="Requirement_id-0000000000000000000000000000002b.xml#id-0000000000000000000000000000002b"/>
   <target
       xsi:type="archimate:Goal"
-      href="../motivation/Goal_id-0000000000000000000000000000001d.xml#id-0000000000000000000000000000001d"/>
+      href="Goal_id-0000000000000000000000000000001d.xml#id-0000000000000000000000000000001d"/>
 </archimate:InfluenceRelationship>
