@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Онлайн доставка — Архитектура бизнеса (AS-IS)"
     id="id-842441f82c3041f28d38dee45901cda4"
-    documentation="AS-IS бизнес-архитектура доставки: процессы от формирования онлайн-заказа до доставки и обслуживания клиентов; явные узкие места и избыточности (дублирование сервисов поддержки, разрыв между ценообразованием и актуальным списком товаров, неоднозначные интерфейсы для курьеров и сборщиков, дубли процесса назначений, несогласованность оплаты и возвратов). Цель — подготовить основу для исправлений в TO-BE."
+    documentation="AS-IS бизнес-архитектура доставки: процессы от формирования онлайн-заказа до доставки и обслуживания клиентов; явные узкие места и избыточности (дублирование сервисов поддержки, разрыв между ценообразованием и актуальным списком товаров, неоднозначные интерфейсы для курьеров и сборщиков, дубли процесса назначений, несогласованность оплаты и возвратов). Цель — подготовить основу для исправлений в TO-BE.&#xA;&#xA;Контур AS-IS для онлайн‑доставки в контексте Магнита. Диаграмма отразит: роли (Клиент, Сборщик, Курьер, Оператор поддержки, Администратор магазина и др.), бизнес‑сервисы (Сервис Доставки, Сервис сборки, Сервис оплаты, Сервис поддержки клиентов и др.), бизнес‑процессы (Формирование заказа, Назначение сборщика, Сборка, Упаковка, Назначение курьера, Доставка, Оплата, Возврат товара от клиента и др.), функции/интерфейсы/объекты.&#xA;&#xA;Намеренные проблемы/избыточности (минимум 6):&#xA;1) Дублирование процессов «Сборка» (id-2d47341c5ce9412f9af5d6d7628b8e91 и id-7e62c44501764f12856531d6272e8d17). В AS-IS оба используются, возникают рассинхронизация и двойной учёт. Исправление в TO-BE: единый процесс «Сборка» с подфункциями.&#xA;2) Дублирование процессов «Назначение сборщика» (id-546904711fcc4f70a3dffa407dfddf1f и id-fa4a333001d04be9b74129b2cc29e80f). Исправление в TO-BE: объединение и автоматизация назначения через общий сервис слотов/распределения.&#xA;3) Некорректная модель роли «Сервис Доставки» (id-4676213a9d0d4a1798984a8af9c34442 указан как BusinessRole). В AS-IS роль используется как поставщик сервиса, что путает ответственность. Исправление в TO-BE: заменить роль на актор «Служба доставки» и отдельно «Сервис доставки» (BusinessService), разделив «кто» и «что».&#xA;4) Лишний сервис «Сервис поддержки» (id-b1a7555a95a84d72914243bc760e973a) дублирует «Сервис поддержки клиентов» (id-ab7fa9f10e0c45a2b7887f39472f7cd3). Исправление в TO-BE: консолидация в единый «Сервис поддержки клиентов» с каналами (чат/телефон/app).&#xA;5) Неэффективная связь оплаты: «Кассовый терминал» и «Оплата наличными/картой» используются как интерфейсы для онлайн‑заказов, что создаёт лишние шаги. Исправление в TO-BE: перенести оплату в «Интерфейс для заказа продуктов с Доставкой» + «Сервис оплаты».&#xA;6) Отсутствует контракт по уровням сервиса (SLA) для доставки: нет формализованного «SLA доставки» между Клиентом, Службой доставки и Магнитом. Исправление в TO-BE: добавить контракт «SLA доставки» с целевыми KPI (срок, коммуникации, компенсации).&#xA;&#xA;В AS-IS будут показаны слабые места: дубли процессов/сервисов, путаница роли/сервиса, неоптимальные интерфейсы для оплаты, отсутствие SLA. В TO-BE будут видны исправления: консолидации, корректные типы, оптимизация потоков, добавление контракта и маршрутизации."
     viewpoint="Business">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -94,15 +94,6 @@
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_id-b0cb82bafcb44044a16e91fafaed5ef1.xml#id-b0cb82bafcb44044a16e91fafaed5ef1"/>
       </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-4f39fd94944c43c2a3acd7440c5c03da"
-          source="id-37d6e7b115cb42c29b1dfea07baa5b78"
-          target="id-89896581e14e4081ae14842695cb0c0b">
-        <archimateRelationship
-            xsi:type="archimate:TriggeringRelationship"
-            href="TriggeringRelationship_id-64867e29f6fe433d8bc4f03fed5cbebd.xml#id-64867e29f6fe433d8bc4f03fed5cbebd"/>
-      </sourceConnections>
       <bounds
           x="204"
           y="34"
@@ -115,7 +106,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-89896581e14e4081ae14842695cb0c0b"
-        targetConnections="id-577a5077ea984a95a0a788dd6bb49023 id-35a04f2d3049491081616d63ac392a54 id-4f39fd94944c43c2a3acd7440c5c03da">
+        targetConnections="id-577a5077ea984a95a0a788dd6bb49023 id-35a04f2d3049491081616d63ac392a54">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-65ec966d0ed94cada43235fab7cf148f"
@@ -479,15 +470,6 @@
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-229a14f7d3fd41ce9976713dca1e128b.xml#id-229a14f7d3fd41ce9976713dca1e128b"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a015ab98987d45adbe5ef6ea3c5d95fe"
-        source="id-54c973407d96492da2bcd85dc86c9274"
-        target="id-1b8054145a9a4ff7bf7e76c85c50ced2">
-      <archimateRelationship
-          xsi:type="archimate:TriggeringRelationship"
-          href="TriggeringRelationship_id-3a6666fe2bee4f20b548ef2a789bea5d.xml#id-3a6666fe2bee4f20b548ef2a789bea5d"/>
-    </sourceConnections>
     <bounds
         x="600"
         y="712"
@@ -753,7 +735,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-1b8054145a9a4ff7bf7e76c85c50ced2"
-      targetConnections="id-2ee452e2ebf241739b943a7b9afc22a7 id-f9c0e83fbe1844d0bc318fce173638f2 id-45f12b88c0534223932a2dfb07044851 id-c41639e2df8e450fae91490de4f40d30 id-a015ab98987d45adbe5ef6ea3c5d95fe"
+      targetConnections="id-2ee452e2ebf241739b943a7b9afc22a7 id-f9c0e83fbe1844d0bc318fce173638f2 id-45f12b88c0534223932a2dfb07044851 id-c41639e2df8e450fae91490de4f40d30"
       fillColor="#dc7053">
     <bounds
         x="372"
