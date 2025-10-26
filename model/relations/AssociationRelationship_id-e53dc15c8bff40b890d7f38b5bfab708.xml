@@ -4,8 +4,8 @@
     id="id-e53dc15c8bff40b890d7f38b5bfab708">
   <source
       xsi:type="archimate:Value"
-      href="../motivation/Value_id-0efcc453333440e59a9bf322fca8cbda.xml#id-0efcc453333440e59a9bf322fca8cbda"/>
+      href="Value_id-0efcc453333440e59a9bf322fca8cbda.xml#id-0efcc453333440e59a9bf322fca8cbda"/>
   <target
       xsi:type="archimate:Stakeholder"
-      href="../motivation/Stakeholder_id-00000000000000000000000000000001.xml#id-00000000000000000000000000000001"/>
+      href="Stakeholder_id-00000000000000000000000000000001.xml#id-00000000000000000000000000000001"/>
 </archimate:AssociationRelationship>

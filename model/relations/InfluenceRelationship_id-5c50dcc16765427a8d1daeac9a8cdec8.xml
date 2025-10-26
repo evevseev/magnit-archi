@@ -4,8 +4,8 @@
     id="id-5c50dcc16765427a8d1daeac9a8cdec8">
   <source
       xsi:type="archimate:Meaning"
-      href="../motivation/Meaning_id-fca8a05c2add4865b77c8ec602ab03db.xml#id-fca8a05c2add4865b77c8ec602ab03db"/>
+      href="Meaning_id-fca8a05c2add4865b77c8ec602ab03db.xml#id-fca8a05c2add4865b77c8ec602ab03db"/>
   <target
       xsi:type="archimate:Stakeholder"
-      href="../motivation/Stakeholder_id-00000000000000000000000000000001.xml#id-00000000000000000000000000000001"/>
+      href="Stakeholder_id-00000000000000000000000000000001.xml#id-00000000000000000000000000000001"/>
 </archimate:InfluenceRelationship>
