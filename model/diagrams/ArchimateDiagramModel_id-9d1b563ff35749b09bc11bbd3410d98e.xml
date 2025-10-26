@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Логистика и снабжение — Архитектура технической инфраструктуры (AS-IS)"
     id="id-9d1b563ff35749b09bc11bbd3410d98e"
-    documentation="Мониторинг и уведомления об ошибках">
+    documentation="AS-IS: корпоративная сеть с VPN в магазины и к партнёрам, в РЦ – x86-серверы с ВМ (WMS, БД TMS, API-шлюз, ETL/BI), контейнерный узел Kubernetes, Kafka, PostgreSQL и техинтерфейсы (HTTP, JDBC, SFTP) с мониторингом/бэкапами&#xA;Слабые места: одиночные инстансы (Kafka/K8s/БД TMS), SFTP на общей ВМ и отсутствие WAF/ограничений на API-шлюзе">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-24b69ead61484c6fb2d0b8f4fd01ddc3"

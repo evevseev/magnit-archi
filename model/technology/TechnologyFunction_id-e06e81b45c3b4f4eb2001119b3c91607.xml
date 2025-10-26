@@ -1,4 +1,5 @@
 <archimate:TechnologyFunction
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Мониторинг и уведомл. об ошибках"
-    id="id-e06e81b45c3b4f4eb2001119b3c91607"/>
+    id="id-e06e81b45c3b4f4eb2001119b3c91607"
+    documentation="Мониторинг и уведомления об ошибках"/>
