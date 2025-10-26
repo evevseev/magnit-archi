@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-98b57c18b2d245c39d735f2f2973c99b"
+    documentation="Сумма оплаты">
+  <source
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-d44c7e259ac54b46b73432f3a0318924.xml#id-d44c7e259ac54b46b73432f3a0318924"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-fabf81809c394845bb419bfe295307d2.xml#id-fabf81809c394845bb419bfe295307d2"/>
+</archimate:AssociationRelationship>

@@ -6,6 +6,6 @@
       xsi:type="archimate:Principle"
       href="Principle_id-0000000000000000000000000000003c.xml#id-0000000000000000000000000000003c"/>
   <target
-      xsi:type="archimate:Requirement"
-      href="Requirement_id-00000000000000000000000000000028.xml#id-00000000000000000000000000000028"/>
+      xsi:type="archimate:Grouping"
+      href="Grouping_id-971777e11526487da068748b8c96cf4c.xml#id-971777e11526487da068748b8c96cf4c"/>
 </archimate:InfluenceRelationship>
