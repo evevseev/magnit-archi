@@ -4,8 +4,8 @@
     id="id-2243c51c3d9f44e2b33c9e9c8ab76c6c">
   <source
       xsi:type="archimate:Assessment"
-      href="../motivation/Assessment_id-143edab2f73344f1b8bc2d35e5eee9d2.xml#id-143edab2f73344f1b8bc2d35e5eee9d2"/>
+      href="Assessment_id-143edab2f73344f1b8bc2d35e5eee9d2.xml#id-143edab2f73344f1b8bc2d35e5eee9d2"/>
   <target
       xsi:type="archimate:Driver"
-      href="../motivation/Driver_id-0000000000000000000000000000000b.xml#id-0000000000000000000000000000000b"/>
+      href="Driver_id-0000000000000000000000000000000b.xml#id-0000000000000000000000000000000b"/>
 </archimate:InfluenceRelationship>

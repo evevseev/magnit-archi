@@ -4,8 +4,8 @@
     id="id-9916852b6f044f9cabad410a025b2330">
   <source
       xsi:type="archimate:Driver"
-      href="../motivation/Driver_id-0000000000000000000000000000000e.xml#id-0000000000000000000000000000000e"/>
+      href="Driver_id-0000000000000000000000000000000e.xml#id-0000000000000000000000000000000e"/>
   <target
       xsi:type="archimate:Driver"
-      href="../motivation/Driver_id-0000000000000000000000000000000d.xml#id-0000000000000000000000000000000d"/>
+      href="Driver_id-0000000000000000000000000000000d.xml#id-0000000000000000000000000000000d"/>
 </archimate:InfluenceRelationship>
