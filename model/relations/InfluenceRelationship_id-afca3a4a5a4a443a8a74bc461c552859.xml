@@ -6,6 +6,6 @@
       xsi:type="archimate:Goal"
       href="Goal_id-00000000000000000000000000000014.xml#id-00000000000000000000000000000014"/>
   <target
-      xsi:type="archimate:Outcome"
-      href="Outcome_id-00000000000000000000000000000020.xml#id-00000000000000000000000000000020"/>
+      xsi:type="archimate:Goal"
+      href="Goal_id-53c2ab7f4f4c41ee9ffa8bd132e47b1f.xml#id-53c2ab7f4f4c41ee9ffa8bd132e47b1f"/>
 </archimate:InfluenceRelationship>
