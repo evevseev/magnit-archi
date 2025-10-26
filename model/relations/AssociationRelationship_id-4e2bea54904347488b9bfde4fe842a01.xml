@@ -1,11 +1,11 @@
-<archimate:InfluenceRelationship
+<archimate:AssociationRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-new-influence-staff-to-reliability">
+    id="id-4e2bea54904347488b9bfde4fe842a01">
   <source
+      xsi:type="archimate:Goal"
+      href="Goal_id-7dcda7c0da1444ca891501f8f966a206.xml#id-7dcda7c0da1444ca891501f8f966a206"/>
+  <target
       xsi:type="archimate:Constraint"
       href="Constraint_id-00000000000000000000000000000032.xml#id-00000000000000000000000000000032"/>
-  <target
-      xsi:type="archimate:Requirement"
-      href="Requirement_id-0000000000000000000000000000002a.xml#id-0000000000000000000000000000002a"/>
-</archimate:InfluenceRelationship>
+</archimate:AssociationRelationship>
