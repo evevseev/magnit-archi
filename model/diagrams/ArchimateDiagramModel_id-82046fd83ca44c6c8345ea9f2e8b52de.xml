@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Онлайн доставка — Архитектура технической инфраструктуры (TO-BE)"
+    name="Онлайн доставка —  черновик (надо как то удалить, чтобы остальное не съехало)"
     id="id-82046fd83ca44c6c8345ea9f2e8b52de"
     documentation="TO-BE инфраструктура магазина/регионального узла для онлайн‑доставки.&#xA;&#xA;Ключевые улучшения AS-IS → TO-BE:&#xA;1) Сегментация сети: отказ от общего VLAN; выделение VLAN POS, CCTV, EAS, Guest, MGMT; межсегментный ACL; QoS для платежей.&#xA;"
     viewpoint="Infrastructure">

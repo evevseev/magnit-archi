@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Онлайн доставка — Архитектура технической инфраструктуры (TOBE)"
+    name="Онлайн доставка — Архитектура технической инфраструктуры (TO-BE) "
     id="id-53685c155bab4311bbbc880a3311d5dc"
     documentation="AS-IS инфраструктурный контур магазина/регионального узла для онлайн‑доставки.&#xA;&#xA;Намеренные проблемы/избыточности:&#xA;Общий VLAN для POS/CCTV/EAS/Guest  — смешение трафика, риски безопасности и QoS. Исправление в TO-BE: сегментация на VLAN POS/Guest/CCTV/EAS/MGMT.&#xD;&#xA;Ключевые улучшения AS-IS → TO-BE:&#xD;&#xA;1) Сегментация сети: отказ от общего VLAN; выделение VLAN POS, CCTV, EAS, Guest, MGMT; межсегментный ACL; QoS для платежей.&#xD;&#xA;&#xA;"
     viewpoint="Infrastructure">
