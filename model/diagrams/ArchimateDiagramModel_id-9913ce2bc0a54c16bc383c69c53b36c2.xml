@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Оффлайн магазины - Диаграмма 3 управление персоналом и отчетностью (TO-BE)"
-    id="id-9913ce2bc0a54c16bc383c69c53b36c2">
+    id="id-9913ce2bc0a54c16bc383c69c53b36c2"
+    documentation="В будущем все процессы управления персоналом и отчетностью будут автоматизированы через интеграцию с HR-системами и бизнес-аналитическими инструментами. Все данные о сотрудниках будут автоматически обновляться в системе, а назначение наставников и проведение обучений будет интегрировано с программами обучения. Создание отчетности также будет полностью автоматизировано с использованием бизнес-аналитики для оптимизации процессов и быстрого анализа эффективности работы сотрудников.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c9cab6120b554f5a8109bb238a2fb9d9">
@@ -328,7 +329,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a1d40bef57ba4687a1001774bd00d7de"
-      targetConnections="id-e0b09e70688c426580c2265477c2fbd9">
+      targetConnections="id-e0b09e70688c426580c2265477c2fbd9"
+      fillColor="#74ec57">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-82f3cb2cd06447b0a0b683f7d59247ed"
@@ -419,7 +421,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-6ab7b42b672c4fabbe4df14a046d807f"
-      targetConnections="id-8dfb5cb8c5f84f438af7f2a670cf896c">
+      targetConnections="id-8dfb5cb8c5f84f438af7f2a670cf896c"
+      fillColor="#74ec57">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-1d8d629d34744749832f56cf0167ff05"
