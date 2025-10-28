@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Онлайн доставка - Диаграмма перехода"
-    id="id-e7508ada130d4fdca5c8fa9ae1a6a779">
+    id="id-e7508ada130d4fdca5c8fa9ae1a6a779"
+    documentation="Модель перехода предусматривает поэтапное внедрение TO-BE-архитектуры: сначала аудит текущих систем и сетевой инфраструктуры, затем постепенная консолидация и замена дублирующих интеграций, сервисов и VLAN-сегментов. Основной акцент делается на минимизацию простоев, совместимость с legacy-системами и постепенный переход к событийной и сегментированной модели без нарушений бизнес-процессов, объединении приложений для поддержки, а также объединение приложений для планирования  смен и выполнения работы для курьеров и сборщиков.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ca99d7b6cdd4461885eea0589f217292">
@@ -545,7 +546,7 @@
         x="516"
         y="792"
         width="154"
-        height="55"/>
+        height="73"/>
     <archimateElement
         xsi:type="archimate:Deliverable"
         href="Deliverable_id-42d7d1c4731a496c9c125622fe972e04.xml#id-42d7d1c4731a496c9c125622fe972e04"/>
@@ -614,7 +615,7 @@
         x="324"
         y="792"
         width="154"
-        height="55"/>
+        height="73"/>
     <archimateElement
         xsi:type="archimate:Deliverable"
         href="Deliverable_id-dd2dec7c67664bdf8eb74f98cf8552aa.xml#id-dd2dec7c67664bdf8eb74f98cf8552aa"/>
