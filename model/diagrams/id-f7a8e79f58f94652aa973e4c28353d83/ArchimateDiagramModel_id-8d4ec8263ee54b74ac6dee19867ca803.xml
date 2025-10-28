@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Логистика и снабжение — Архитектура бизнеса (TO BE)"
     id="id-8d4ec8263ee54b74ac6dee19867ca803"
-    documentation="TO-BE добавляет сервис управления заказами и курьерское приложение, выстраивает сквозное управление назначением/маршрутизацией, статусами и уведомлениями, вводит SLA сборки и корректирует ценообразование (переоценка пишет в объект «Цены магазина»). На стороне снабжения появляется процесс планирования поставок с событием «План утверждён» и обмен ASN для приемки в РЦ и магазине; убран дублирующий сервис поддержки – интерфейс операторов обслуживает общий сервис поддержки">
+    documentation="TO-BE добавляет сервис управления заказами и курьерское приложение, выстраивает сквозное управление назначением/маршрутизацией, статусами и уведомлениями, вводит SLA сборки и корректирует ценообразование (переоценка пишет в объект «Цены магазина»). На стороне снабжения появляется процесс планирования поставок с событием «План утверждён» и обмен данными для приемки в РЦ и магазине; убран дублирующий сервис поддержки – интерфейс операторов обслуживает общий сервис поддержки">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-aa35562f8e584499aa6bf6b5de15a99f"
@@ -1499,7 +1499,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9fa5344a09f0410dbe0930f000981043"
-      targetConnections="id-cc11f50d7e5d46c6aa2dd5f6fe851eec">
+      targetConnections="id-cc11f50d7e5d46c6aa2dd5f6fe851eec id-60182cc5a0e7420c81146f2ede23e7d4">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-22f2e3002c0f4d9e8c97dd8f39286ed0"
@@ -3285,6 +3285,15 @@
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_id-d22a178cfb234d0aaa77b98511982c99.xml#id-d22a178cfb234d0aaa77b98511982c99"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-f24cf234ab9e42938fba8e56f6baf0fc"
+          source="id-551540d94dbf42ba89b582762b9fd64f"
+          target="id-7debc2fc45cc490db0bf5f31cd3b73db">
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-be4481e5683a471c975f4a40f74914d4.xml#id-be4481e5683a471c975f4a40f74914d4"/>
+      </sourceConnections>
       <bounds
           x="888"
           y="204"
@@ -3402,5 +3411,28 @@
     <archimateElement
         xsi:type="archimate:BusinessService"
         href="BusinessService_id-421c9ee499f54179b19ba6b7bf3eeacf.xml#id-421c9ee499f54179b19ba6b7bf3eeacf"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7debc2fc45cc490db0bf5f31cd3b73db"
+      targetConnections="id-f24cf234ab9e42938fba8e56f6baf0fc"
+      fillColor="#00ff80">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-60182cc5a0e7420c81146f2ede23e7d4"
+        source="id-7debc2fc45cc490db0bf5f31cd3b73db"
+        target="id-9fa5344a09f0410dbe0930f000981043">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-7ba902cbb0c04f57ab1043c6fee74b1b.xml#id-7ba902cbb0c04f57ab1043c6fee74b1b"/>
+    </sourceConnections>
+    <bounds
+        x="2316"
+        y="651"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessService"
+        href="BusinessService_id-280a0c5b083b45d7998acc0a54c89739.xml#id-280a0c5b083b45d7998acc0a54c89739"/>
   </children>
 </archimate:ArchimateDiagramModel>
