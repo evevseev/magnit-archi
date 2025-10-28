@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Оффлайн магазины - Диаграмма 3 управление персоналом и отчетностью"
-    id="id-0b9881ace92443fab6bfe3cb4fa79747">
+    id="id-0b9881ace92443fab6bfe3cb4fa79747"
+    documentation="Управление персоналом в текущей модели осуществляется вручную. В случае приема на работу сотрудника, его данные вводятся в HR-систему вручную, и назначение наставника также осуществляется в традиционном формате. В случае увольнения сотрудника, процесс обновления записей и подтверждения увольнения требует вмешательства HR-менеджера. Аналогично, создание отчетности и анализ данных выполняется вручную с возможностью ошибок и задержек.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-98340a76586a4c8884a320af5befd64e">
@@ -328,7 +329,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9b5410edc9cb4dc0b92e00b0e259af5c"
-      targetConnections="id-b18e54d9d8564fef80992db904474396">
+      targetConnections="id-b18e54d9d8564fef80992db904474396"
+      fillColor="#ff5e3f">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-dae60031e19d405caeb5e382738323d1"
@@ -419,7 +421,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a2c9cea6899b434088442f688bdbd3b7"
-      targetConnections="id-7a5eaf58df8449ed9f67f471657eab2f">
+      targetConnections="id-7a5eaf58df8449ed9f67f471657eab2f"
+      fillColor="#ff5e3f">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-f2be63ac69bb48ecad2a27b1474c7262"
