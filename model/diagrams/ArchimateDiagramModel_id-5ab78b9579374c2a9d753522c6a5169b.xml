@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Оффлайн магазины — Диаграмма 1 — Снабжение и приёмка товаров (AS-IS) (copy)"
+    name="Оффлайн магазины — Диаграмма 1 — Снабжение и приёмка товаров (TO-BE)"
     id="id-5ab78b9579374c2a9d753522c6a5169b"
     documentation="AS-IS операционная модель оффлайн-магазинов Магнита: процессы, роли, интерфейсы, сервисы, данные. Диаграмма создана для кейса повышения эффективности."
     viewpoint="Layered">

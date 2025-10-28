@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Оффлайн магазины - Диаграмма 2 - продажа и обслуживание клиентов (AS-IS) (copy)"
+    name="Оффлайн магазины - Диаграмма 2 - продажа и обслуживание клиентов (TO-BE)"
     id="id-10244194a5064ff694b08551d3842751">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -453,7 +453,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b4b47171fc9646ddba3a89d2422992a6"
       targetConnections="id-3309290ec5764312945aad6bdb67f88f"
-      fillColor="#ff5e3f">
+      fillColor="#74ec57">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-cf7bf2cec2f04dfe865790515f83a159"
@@ -886,7 +886,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-235bf663d18748098b830458be92ea02"
       targetConnections="id-e28c23b5feb14c51925ca08c77fc6886 id-9e5b32e5ead246d5b79ef5802a858819"
-      fillColor="#ff5e3f">
+      fillColor="#74ec57">
     <bounds
         x="4008"
         y="444"
